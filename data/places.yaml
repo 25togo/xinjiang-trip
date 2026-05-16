@@ -24,7 +24,7 @@ places:
     lng: 75.989138
     day: [2, 3, 6]
     note: 古絲路重鎮，維吾爾文化中心，KHG 機場入境
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/East_gate_of_the_Ancient_City_of_Kashi_%2820230923104429%29.jpg/1280px-East_gate_of_the_Ancient_City_of_Kashi_%2820230923104429%29.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Kashgar_old_city_IGP3776.jpg/1280px-Kashgar_old_city_IGP3776.jpg"
 
   - id: id_kah_mosque
     name: 艾提尕爾清真寺
