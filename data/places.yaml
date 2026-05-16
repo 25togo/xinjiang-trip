@@ -207,21 +207,37 @@ places:
     day: [13, 14]
     note: 空中草原最美，哈薩克牧民聚居
 
-  - id: qiaoerma
-    name: 喬爾瑪烈士陵園
-    type: memorial
-    lat: 43.5200
-    lng: 84.6500
+  - id: tekes
+    name: 特克斯八卦城
+    type: attraction
+    lat: 43.2150
+    lng: 81.8350
     day: [14]
-    note: 紀念修建獨庫公路犧牲的解放軍
+    note: 全球唯一保留完整八卦造型的縣城，午餐+街景
 
-  - id: dushanzi
-    name: 獨山子
+  - id: yining
+    name: 伊寧
     type: city
-    lat: 44.3280
-    lng: 84.8860
+    lat: 43.9110
+    lng: 81.2980
     day: [14]
-    note: 獨庫公路北端起點
+    note: 伊犁河谷中心，路過點
+
+  - id: sayram_lake
+    name: 賽里木湖
+    type: attraction
+    lat: 44.6050
+    lng: 81.1810
+    day: [14, 15]
+    note: 中亞最美高山湖泊，湖邊客棧住一晚
+
+  - id: guozigou
+    name: 果子溝大橋
+    type: attraction
+    lat: 44.4710
+    lng: 80.9110
+    day: [15]
+    note: G30 連霍高速最美橋段，車上拍照
 
   - id: urumqi_bazaar
     name: 烏魯木齊國際大巴扎
@@ -265,10 +281,14 @@ hotels:
     name: 那拉提山莊 / 牧民氈房
     price_rmb: 400-700
     note: 草原內氈房 vs 鎮上酒店二選一
+  - city: 賽里木湖
+    name: 賽湖明珠客棧 / 雪嶺雲杉景區帳篷酒店
+    price_rmb: 500-800
+    note: 湖邊住一晚是這趟亮點，可看湖景日出
   - city: 烏魯木齊
-    name: 麥田國際青年旅舍 / 桔子水晶
+    name: 機場酒店（轉機過夜用）/ 麥田國際青年旅舍
     price_rmb: 350-500
-    note: 機場 30 分鐘車程，建議市區
+    note: Day 15 晚班機，可不需訂房；若航班延誤備用
 
 # 推薦餐廳
 restaurants:

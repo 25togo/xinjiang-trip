@@ -65,19 +65,37 @@ m = folium.Map(
 )
 
 color_by_type = {
-    "city": "blue", "attraction": "green", "bazaar": "purple",
-    "border": "red", "checkpoint": "orange", "memorial": "gray",
-    "route": "darkblue", "food": "pink",
+    "city": "#1a4d6e", "attraction": "#2d8659", "bazaar": "#7b3f99",
+    "border": "#c0392b", "checkpoint": "#e67e22", "memorial": "#7f8c8d",
+    "route": "#2c3e50", "food": "#d6336c",
 }
 
-# 加路線（按 day 順序連接城市）
+
+def day_marker_html(day_label: str, bg: str) -> str:
+    """產生圓圈裡寫天數的 marker HTML"""
+    return f"""
+    <div style="
+        background:{bg};
+        color:white;
+        width:30px;height:30px;
+        border-radius:50%;
+        border:2px solid white;
+        box-shadow:0 1px 4px rgba(0,0,0,0.4);
+        display:flex;align-items:center;justify-content:center;
+        font-weight:bold;font-size:13px;font-family:sans-serif;
+    ">{day_label}</div>
+    """
+
+# 加路線（按 day 順序連接代表點，優先取 city 類型）
 route_pts = []
 for d in itin["days"]:
     target_city = d["city_to"]
-    for p in places_data["places"]:
-        if p["type"] == "city" and target_city in p["name"]:
-            route_pts.append([p["lat"], p["lng"]])
-            break
+    if target_city == "台北":
+        continue
+    candidates = [p for p in places_data["places"] if target_city in p["name"]]
+    candidates.sort(key=lambda p: 0 if p["type"] == "city" else 1)
+    if candidates:
+        route_pts.append([candidates[0]["lat"], candidates[0]["lng"]])
 
 if len(route_pts) >= 2:
     folium.PolyLine(
@@ -94,22 +112,41 @@ folium.PolyLine(
     tooltip="× 假設要喀什折返會多走 1500km / 2 天車程（不推薦）",
 ).add_to(m)
 
-# 機場標記
+# 機場標記（紅色✈ 圓圈）
+def airport_html(label: str) -> str:
+    return f"""
+    <div style="
+        background:#c0392b;
+        color:white;
+        width:34px;height:34px;
+        border-radius:50%;
+        border:3px solid white;
+        box-shadow:0 1px 4px rgba(0,0,0,0.5);
+        display:flex;align-items:center;justify-content:center;
+        font-weight:bold;font-size:11px;font-family:sans-serif;
+    ">{label}</div>
+    """
+
 folium.Marker(
     kashgar_pt,
-    popup="✈️ 喀什機場 KHG（進）",
+    popup="✈️ 喀什機場 KHG（Day 1 進）",
     tooltip="喀什機場 KHG（進）",
-    icon=folium.Icon(color="red", icon="plane", prefix="fa"),
+    icon=folium.DivIcon(html=airport_html("KHG"), icon_size=(34, 34), icon_anchor=(17, 17)),
 ).add_to(m)
 folium.Marker(
     urumqi_pt,
-    popup="✈️ 烏魯木齊機場 URC（出）",
+    popup="✈️ 烏魯木齊機場 URC（Day 15 出）",
     tooltip="烏魯木齊機場 URC（出）",
-    icon=folium.Icon(color="red", icon="plane", prefix="fa"),
+    icon=folium.DivIcon(html=airport_html("URC"), icon_size=(34, 34), icon_anchor=(17, 17)),
 ).add_to(m)
 
 for p in filtered:
     days_str = ", ".join(f"Day {d}" for d in p["day"])
+    if len(p["day"]) == 1:
+        day_label = str(p["day"][0])
+    else:
+        # 多天的點顯示「最早天-最晚天」
+        day_label = f"{min(p['day'])}-{max(p['day'])}"
     amap_link = amap_marker_url(p["lat"], p["lng"], p["name"])
     nav_link = amap_navigation_url(p["lat"], p["lng"], p["name"])
     popup_html = f"""
@@ -125,8 +162,12 @@ for p in filtered:
     folium.Marker(
         [p["lat"], p["lng"]],
         popup=folium.Popup(popup_html, max_width=260),
-        tooltip=p["name"],
-        icon=folium.Icon(color=color_by_type.get(p["type"], "gray"), icon="info-sign"),
+        tooltip=f"Day {day_label} ｜ {p['name']}",
+        icon=folium.DivIcon(
+            html=day_marker_html(day_label, color_by_type.get(p["type"], "#888")),
+            icon_size=(30, 30),
+            icon_anchor=(15, 15),
+        ),
     ).add_to(m)
 
 st_folium(m, height=560, use_container_width=True, returned_objects=[])
