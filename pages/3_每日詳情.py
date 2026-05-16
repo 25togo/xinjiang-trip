@@ -21,9 +21,14 @@ d = itin["days"][day_idx]
 st.header(f"Day {d['day']} ｜ {d['date']}")
 st.subheader(f"{d['city_from']} → {d['city_to']}")
 
-# 今日封面圖：取第一個有 image_url 的景點
+# 今日封面圖：優先取 day.cover_place_id 指定的，沒指定就抓第一個有圖的
 _today_places = [p for p in places["places"] if d["day"] in p["day"]]
-_cover = next((p for p in _today_places if p.get("image_url", "").strip()), None)
+_cover_id = d.get("cover_place_id")
+_cover = None
+if _cover_id:
+    _cover = next((p for p in places["places"] if p.get("id") == _cover_id and p.get("image_url", "").strip()), None)
+if not _cover:
+    _cover = next((p for p in _today_places if p.get("image_url", "").strip()), None)
 if _cover:
     st.image(_cover["image_url"], caption=f"📷 {_cover['name']}", use_container_width=True)
 

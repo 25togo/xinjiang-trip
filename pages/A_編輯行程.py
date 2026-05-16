@@ -14,10 +14,12 @@ if not is_configured():
     show_setup_instructions()
     st.stop()
 
-# 讀取最新版本
+# 讀取最新版本（同時讀 places 給封面選擇器用）
 try:
     content, sha = get_file("data/itinerary.yaml")
     itin = yaml.safe_load(content)
+    places_content, _ = get_file("data/places.yaml")
+    places_data = yaml.safe_load(places_content)
 except Exception as e:
     st.error(f"讀取失敗：{e}")
     st.stop()
@@ -50,6 +52,27 @@ with st.form("edit_day"):
 
     new_notes = st.text_area("備註／提醒", value=d.get("notes", ""), height=80)
 
+    st.markdown("---")
+    st.markdown("**📷 今日封面照片** — 選哪個景點的照片當這天的首圖")
+    today_places = [p for p in places_data.get("places", []) if d["day"] in p.get("day", [])]
+    cover_options = [("", "（自動選第一個有圖的）")] + [(p["id"], f"{p['name']} {'✓ 有圖' if p.get('image_url') else '✗ 沒圖'}") for p in today_places]
+    cover_ids = [o[0] for o in cover_options]
+    cover_labels = {o[0]: o[1] for o in cover_options}
+    current_cover = d.get("cover_place_id", "")
+    if current_cover not in cover_ids:
+        current_cover = ""
+    new_cover_id = st.selectbox(
+        "封面景點",
+        cover_ids,
+        index=cover_ids.index(current_cover),
+        format_func=lambda x: cover_labels.get(x, x),
+    )
+    # 預覽
+    if new_cover_id:
+        preview_place = next((p for p in places_data["places"] if p["id"] == new_cover_id), None)
+        if preview_place and preview_place.get("image_url"):
+            st.image(preview_place["image_url"], caption=f"預覽：{preview_place['name']}", use_container_width=True)
+
     submitted = st.form_submit_button("💾 儲存到 GitHub", type="primary", use_container_width=True)
 
 if submitted:
@@ -63,6 +86,7 @@ if submitted:
     d["overnight"] = new_overnight
     d["highlights"] = [h.strip() for h in new_highlights.split("\n") if h.strip()]
     d["notes"] = new_notes
+    d["cover_place_id"] = new_cover_id or None
 
     new_yaml = yaml.safe_dump(itin, allow_unicode=True, sort_keys=False, default_flow_style=False)
 

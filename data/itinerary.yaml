@@ -18,6 +18,7 @@ days:
     distance_km: 0
     drive_hours: 0
     overnight: 上海 PVG 機場轉機酒店
+    cover_place_id: shanghai
     highlights:
       - 17:00 抵桃園機場 check-in
       - 17:55 起飛 → 21:00 抵上海浦東
@@ -33,6 +34,7 @@ days:
     distance_km: 0
     drive_hours: 0
     overnight: 喀什
+    cover_place_id: kashgar
     highlights:
       - 上午回上海浦東機場 check-in
       - PVG→KHG 班機（南航 CZ 多半下午起飛）
@@ -49,6 +51,7 @@ days:
     distance_km: 15
     drive_hours: 1
     overnight: 喀什
+    cover_place_id: id_kah_mosque
     highlights:
       - 9:00 喀什公安局辦邊防證（含等待 2h）
       - 11:00 換 RMB＋啟用 eSIM
@@ -69,6 +72,7 @@ days:
     distance_km: 295
     drive_hours: 7
     overnight: 塔什庫爾干
+    cover_place_id: karakul_lake
     highlights:
       - 蓋孜檢查站（出示邊防證）
       - 白沙湖＋白沙山（停留拍照 30 分鐘）
@@ -87,6 +91,7 @@ days:
     distance_km: 200
     drive_hours: 6
     overnight: 塔什庫爾干
+    cover_place_id: panlong
     highlights:
       - 塔縣→瓦恰鄉 盤龍古道（639 個 S 形彎道）
       - 盤龍古道網紅觀景台俯瞰整條公路盤旋如龍
@@ -104,6 +109,7 @@ days:
     distance_km: 500
     drive_hours: 9
     overnight: 葉城
+    cover_place_id: yecheng
     highlights:
       - 下高原（沿 314 國道）
       - 中午回喀什吃午餐
@@ -120,6 +126,7 @@ days:
     distance_km: 410
     drive_hours: 6
     overnight: 和田
+    cover_place_id: yulong_river
     highlights:
       - 早 6:00 葉城出發
       - 沿崑崙山北麓行駛
@@ -138,6 +145,7 @@ days:
     distance_km: 550
     drive_hours: 8
     overnight: 阿克蘇
+    cover_place_id: tarim_highway
     highlights:
       - 穿越塔克拉瑪干沙漠公路
       - 中途休息點停留拍照
@@ -153,6 +161,7 @@ days:
     distance_km: 270
     drive_hours: 4
     overnight: 庫車
+    cover_place_id: kizil_caves
     highlights:
       - 阿克蘇→庫車
       - 克孜爾石窟（古龜茲佛教遺址，中國最早佛教石窟）
@@ -169,6 +178,7 @@ days:
     distance_km: 350
     drive_hours: 7
     overnight: 巴音布魯克
+    cover_place_id: bayanbulak
     highlights:
       - 獨庫公路 217 國道南段（最精華段）
       - 鐵力買提達坂（雪山公路）
@@ -186,6 +196,7 @@ days:
     distance_km: 160
     drive_hours: 4
     overnight: 那拉提
+    cover_place_id: narati
     highlights:
       - 早上巴音布魯克→那拉提（獨庫中段）
       - 那拉提空中草原（半日玩）
@@ -203,6 +214,7 @@ days:
     distance_km: 420
     drive_hours: 6
     overnight: 賽里木湖（湖邊客棧）
+    cover_place_id: sayram_lake
     highlights:
       - 早上那拉提空中草原最後遊覽
       - 那拉提→伊寧（伊犁河谷）
@@ -221,6 +233,7 @@ days:
     distance_km: 530
     drive_hours: 7
     overnight: 烏魯木齊市區
+    cover_place_id: guozigou
     highlights:
       - 早 7:00 賽里木湖日出
       - 賽里木湖環湖
@@ -239,6 +252,7 @@ days:
     distance_km: 20
     drive_hours: 1
     overnight: 烏魯木齊機場附近酒店
+    cover_place_id: xinjiang_museum
     highlights:
       - 上午新疆博物館（國家一級館，西域古國文物超多，必看樓蘭美女、五星出東方）
       - 中午午餐：博物館附近塔吉克餐廳
@@ -257,6 +271,7 @@ days:
     distance_km: 0
     drive_hours: 0
     overnight: 家
+    cover_place_id: urumqi_bazaar
     highlights:
       - 06:30 抵達烏魯木齊地窩堡機場 check-in
       - 09:05 起飛
