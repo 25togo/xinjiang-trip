@@ -3,9 +3,9 @@ trip:
   start_date: "2026-08-16"
   end_date: "2026-08-30"
   travelers: 2
-  route_type: 帕米爾盤龍古道＋克孜爾石窟＋獨庫南中段＋賽里木湖＋果子溝＋烏市深度（喀什進、烏魯木齊出 開口票）
+  route_type: 帕米爾盤龍古道＋塔莎古道＋獨庫南中段＋伊犁河谷六星街＋賽里木湖＋果子溝（喀什進、烏魯木齊出 開口票）
   vehicle: 包車（單日 RMB 1100-1300）
-  flight_in: "8/16 台北 17:55 → 上海 PVG 過夜轉 → 8/17 抵達喀什 21:40"
+  flight_in: "東方航空 MU｜8/16 台北 15:30 → 上海 PVG 17:30（住浦東亞朶酒店）｜8/17 PVG 07:05 → KHG 13:50（直飛 6h45m）"
   flight_out: "8/30 烏魯木齊 09:05 → 上海轉機 → 台北 17:40"
 
 days:
@@ -13,55 +13,58 @@ days:
     date: "2026-08-16"
     city_from: 台北
     city_to: 上海
-    transport: 飛機（TPE 17:55→PVG 約 21:00）
+    transport: 東方航空 MU（TPE 15:30→PVG 17:30，2h）
     altitude_m: 4
     distance_km: 0
     drive_hours: 0
-    overnight: 上海 PVG 機場轉機酒店
+    overnight: 上海浦東亞朶酒店
     cover_place_id: shanghai
     highlights:
-      - 17:00 抵桃園機場 check-in
-      - 17:55 起飛 → 21:00 抵上海浦東
-      - 入住機場附近轉機酒店或機場過夜
-    notes: 訂浦東機場 5 分鐘車程的轉機酒店（如 Aerotel Shanghai、上海浦東國際機場日航酒店），RMB 400-600。明早再回機場搭 PVG→KHG 班機。
+      - 13:30 抵桃園機場 check-in
+      - 15:30 起飛 → 17:30 抵上海浦東 T1
+      - 入住浦東亞朶酒店（朋友推薦，機場附近）
+    notes: 改東方航空直飛上海，比雙轉機省 4-5 小時。亞朶酒店是國內精品連鎖，PVG 機場 5 分鐘車程。
 
   - day: 2
     date: "2026-08-17"
     city_from: 上海
     city_to: 喀什
-    transport: 飛機（PVG→KHG 約 6h，多半單轉烏魯木齊）
+    transport: 東方航空 MU（PVG 07:05→KHG 13:50，6h45m 直飛）
     altitude_m: 1289
     distance_km: 0
     drive_hours: 0
-    overnight: 喀什
+    overnight: 知有·疆南民宿 或 尋疆別苑民宿（喀什古城內）
     cover_place_id: kashgar
     highlights:
-      - 上午回上海浦東機場 check-in
-      - PVG→KHG 班機（南航 CZ 多半下午起飛）
-      - 21:40 抵達喀什機場
-      - 包車師傅機場接機，入住酒店
-    notes: 這天等於只能睡覺，21:40 落地後直接入住喀什酒店。明天上午先去公安局辦邊防證。
+      - 早 05:00 起床，回浦東機場 check-in
+      - 07:05 PVG 起飛
+      - 13:50 抵喀什機場
+      - 14:00 包車師傅接機 → 入住古城民宿
+      - 15:00 喀什古城慢逛（維吾爾族傳統民居）
+      - 16:30 艾提尕爾清真寺廣場曬太陽
+      - 17:30 百年老茶館聽都塔爾/彈布林演奏
+      - 19:00 騎士大觀園二樓晚餐（看一樓維吾爾婚禮）或古城街小吃
+    notes: 東方航空 PVG-KHG 直飛是這航線最快的。13:50 抵達就能下午玩半天。住古城民宿沉浸體驗。
 
   - day: 3
     date: "2026-08-18"
     city_from: 喀什
     city_to: 喀什
-    transport: 步行/包車市區（全日打包）
+    transport: 步行/包車市區
     altitude_m: 1289
-    distance_km: 15
+    distance_km: 10
     drive_hours: 1
-    overnight: 喀什
+    overnight: 尋疆別苑民宿（喀什古城景區彩虹巷店）
     cover_place_id: id_kah_mosque
     highlights:
-      - 9:00 喀什公安局辦邊防證（含等待 2h）
-      - 11:00 換 RMB＋啟用 eSIM
-      - 12:00 午餐：Marhaba 餐廳或大巴扎美食街
-      - 13:30 艾提尕爾清真寺
-      - 14:30 喀什大巴扎
-      - 16:00 香妃墓（阿帕克霍加麻札）
-      - 18:00 喀什老城（高台民居、百年茶館）
-      - 20:00 晚餐：百年老茶館或大巴扎美食街
-    notes: 一天打包喀什所有重點。包車師傅可代辦邊防證省 1h。穿著遮肩膀及膝（進清真寺）。
+      - 早 08:00 公安局辦邊防證（含等待 2h）
+      - 10:00 古城開城儀式（必看，提前排隊）
+      - 11:00 香妃園遊覽（2h）
+      - 13:00 午餐：烤鴿子、手抓飯、鴿子面
+      - 16:00 香妃園十二木卡姆歌舞表演
+      - 18:00 回酒店休息
+      - 20:00 喀什古城夜市
+    notes: 朋友推薦古城開城儀式（10am 限定）和十二木卡姆表演，超深度體驗。邊防證帶台胞證正本+住宿登記。
 
   - day: 4
     date: "2026-08-19"
@@ -71,196 +74,206 @@ days:
     altitude_m: 3100
     distance_km: 295
     drive_hours: 7
-    overnight: 塔什庫爾干
+    overnight: 茗源民宿（托葛籣夏村，朋友推薦）
     cover_place_id: karakul_lake
     highlights:
+      - 08:30 喀什酒店出發
       - 蓋孜檢查站（出示邊防證）
       - 白沙湖＋白沙山（停留拍照 30 分鐘）
+      - 蘇巴什服務區午餐
       - 卡拉庫里湖（慕士塔格峰倒影，海拔 3600m）
-      - 17:00 抵達塔縣，入住塔吉克民宿或冰山賓館
-      - 18:00 石頭城（公主堡遺址）
-      - 19:30 金草灘濕地日落
-    notes: 上升 1800m，部分人會頭痛。準備紅景天、攜帶氧氣。傍晚石頭城+金草灘可看日落。
+      - 塔合曼濕地（雪山+草原+塔吉克民居）
+      - 抵塔縣托葛籣夏村，入住茗源民宿
+      - 觀看塔吉克民族婚禮（若當日有），跟著跳舞
+    notes: 茗源民宿是朋友推薦的塔吉克族村民宿，能體驗在地文化。
 
   - day: 5
     date: "2026-08-20"
+    city_from: 塔什庫爾干
+    city_to: 塔什庫爾干
+    transport: 包車市區/村莊
+    altitude_m: 3100
+    distance_km: 40
+    drive_hours: 2
+    overnight: 茗源民宿
+    cover_place_id: jincaotan
+    highlights:
+      - 上午托葛籣夏村漫步，去牧民家裡做客
+      - 中午縣城午餐
+      - 觀看塔吉克鷹舞、塔吉克歌舞表演
+      - 下午休息 3 小時（適應高原）
+      - 傍晚石頭城＋金草灘日落
+      - 晚上夜市看跳舞活動
+    notes: 適應高度的一天，朋友建議下午多休息。鷹舞是塔吉克族非物質文化遺產。
+
+  - day: 6
+    date: "2026-08-21"
     city_from: 塔什庫爾干
     city_to: 塔什庫爾干
     transport: 包車（314 國道塔瓦段）
     altitude_m: 4200
     distance_km: 200
     drive_hours: 6
-    overnight: 塔什庫爾干
+    overnight: 茗源民宿（回塔縣住）
     cover_place_id: panlong
     highlights:
-      - 塔縣→瓦恰鄉 盤龍古道（639 個 S 形彎道）
-      - 盤龍古道網紅觀景台俯瞰整條公路盤旋如龍
-      - 沿途帕米爾高原牧場、塔吉克族村莊
-      - 海拔 3000-4200m 變化
-      - 瓦恰鄉午餐後原路返塔縣
-    notes: 盤龍古道 2019 年通車，是 314 國道塔縣到瓦恰段。沒護欄、髮夾彎多，包車師傅必須熟此段。海拔變化劇烈，車上備氧氣。下午 4 點前回塔縣以免天黑開山路。
+      - 塔縣→盤龍古道（639 個 S 形彎道，2019 通車）
+      - 經瓦恰鄉午餐
+      - 塔莎古道（朋友推薦，少人但景色壯觀）
+      - 海拔 3000-4200m 變化，車上備氧氣
+      - 下午 4 點前回塔縣
+    notes: 盤龍古道+塔莎古道一日打包。沒護欄、髮夾彎多，師傅要熟此段。塔莎古道更原始，是朋友新增的隱藏景點。
 
-  - day: 6
-    date: "2026-08-21"
+  - day: 7
+    date: "2026-08-22"
     city_from: 塔什庫爾干
     city_to: 葉城
     transport: 包車（原路返喀什再轉葉城）
     altitude_m: 1380
     distance_km: 500
     drive_hours: 9
-    overnight: 葉城
+    overnight: 葉城賓館
     cover_place_id: yecheng
     highlights:
+      - 早 6:00 塔縣出發
       - 下高原（沿 314 國道）
       - 中午回喀什吃午餐
       - 下午轉 219 國道往葉城
-      - 葉城零公里紀念碑（新藏線起點）
-    notes: 這天車程最長。下高原後身體會明顯舒服。葉城住宿選擇少，建議連鎖商旅。
+      - 葉城零公里紀念碑（新藏線起點打卡）
+    notes: 這天車程最長。下高原後身體會明顯舒服。葉城住宿選擇少，連鎖商旅優先。
 
-  - day: 7
-    date: "2026-08-22"
+  - day: 8
+    date: "2026-08-23"
     city_from: 葉城
     city_to: 和田
     transport: 包車（315 國道，崑崙山北麓）
     altitude_m: 1380
-    distance_km: 410
-    drive_hours: 6
-    overnight: 和田
+    distance_km: 470
+    drive_hours: 7
+    overnight: 維也納國際飯店（和田夜市甌越公館店）或錦江都城（和田夜市團結廣場店）
     cover_place_id: yulong_river
     highlights:
-      - 早 6:00 葉城出發
+      - 早 7:00 葉城出發
       - 沿崑崙山北麓行駛
-      - 約 12:00 抵和田，午餐
-      - 下午和田老城＋玉龍喀什河採玉
-      - 艾德萊斯絲綢工坊
-      - 晚上和田夜市（烤包子、馕坑肉、烤全羊）
-    notes: 早出 6am 才有時間下午玩和田。和田玉真假難辨，不建議在路邊買大件。
-
-  - day: 8
-    date: "2026-08-23"
-    city_from: 和田
-    city_to: 阿克蘇
-    transport: 包車（沙漠公路，217 國道）
-    altitude_m: 1100
-    distance_km: 550
-    drive_hours: 8
-    overnight: 阿克蘇
-    cover_place_id: tarim_highway
-    highlights:
-      - 穿越塔克拉瑪干沙漠公路
-      - 中途休息點停留拍照
-      - 抵達阿克蘇晚餐
-    notes: 沙漠公路全程加油站少，師傅會提前準備。8 月沙漠白天 40°C+。
+      - 中午抵莎車縣
+      - 葉爾羌汗王宮＋阿曼尼莎汗王陵（朋友推薦，認識十二木卡姆藝術歷史）
+      - 14:00 莎車午餐後出發
+      - 下午抵和田
+      - 玉龍喀什河體驗撿和田玉
+      - 和田博物館
+      - 晚上和田夜市（酒店步行 5 分鐘可達）
+    notes: 朋友推薦中途停莎車看葉爾羌汗王宮（不繞遠）。和田住宿選夜市旁，方便晚上去夜市。
 
   - day: 9
     date: "2026-08-24"
-    city_from: 阿克蘇
-    city_to: 庫車
-    transport: 包車（連霍高速）
-    altitude_m: 1100
-    distance_km: 270
-    drive_hours: 4
-    overnight: 庫車
-    cover_place_id: kizil_caves
+    city_from: 和田
+    city_to: 阿拉爾
+    transport: 包車（G580 沙漠公路，560km）
+    altitude_m: 1000
+    distance_km: 560
+    drive_hours: 8
+    overnight: 阿拉爾萬達美華飯店（塔里木大學店）
+    cover_place_id: tarim_highway
     highlights:
-      - 阿克蘇→庫車
-      - 克孜爾石窟（古龜茲佛教遺址，中國最早佛教石窟）
-      - 庫車老城＋庫車大寺
-      - 庫車大馕＋庫車大巴扎晚餐
-    notes: 克孜爾石窟比敦煌早 200 年，要排隊買票。
+      - 和田出發走 G580 沙漠公路（朋友推薦，比 G217 更深入沙漠）
+      - 邊行邊拍：胡楊林、沙丘、戈壁
+      - 晚上抵阿拉爾，住萬達美華
+    notes: 朋友建議「今天坐車當休息」。G580 是新建沙漠公路，車況好但加油站少，師傅要提前準備。
 
   - day: 10
     date: "2026-08-25"
+    city_from: 阿拉爾
+    city_to: 庫車
+    transport: 包車（連霍高速 + 大峽谷）
+    altitude_m: 1500
+    distance_km: 300
+    drive_hours: 7
+    overnight: 蘭歐·尚品飯店（庫車市太古裡夜市店，朋友推薦）
+    cover_place_id: kuqa_canyon
+    highlights:
+      - 阿拉爾→庫車（連霍高速 4h）
+      - 中午抵庫車午餐
+      - 下午開車進入天山神秘大峽谷（紅色丹霞地貌）
+      - 峽谷步行 3.7km，下午光線最佳
+      - 晚上庫車太古裡夜市
+    notes: 砍掉克孜爾石窟（你說不去）。改去天山神秘大峽谷（朋友推薦，超震撼）。
+
+  - day: 11
+    date: "2026-08-26"
     city_from: 庫車
     city_to: 巴音布魯克
     transport: 包車（獨庫公路南段）
     altitude_m: 2400
     distance_km: 350
     drive_hours: 7
-    overnight: 巴音布魯克
+    overnight: 巴音布魯克氈房 或 天鵝湖賓館
     cover_place_id: bayanbulak
     highlights:
       - 獨庫公路 217 國道南段（最精華段）
       - 鐵力買提達坂（雪山公路）
       - 大龍池/小龍池（高山湖泊）
       - 巴音布魯克草原（天鵝湖）
-      - 九曲十八彎日落（必看）
-    notes: 獨庫公路 6-10 月通車。日落是巴音布魯克招牌，預留 17:00 後抵達觀景台。
-
-  - day: 11
-    date: "2026-08-26"
-    city_from: 巴音布魯克
-    city_to: 那拉提
-    transport: 包車（獨庫公路中段）
-    altitude_m: 1800
-    distance_km: 160
-    drive_hours: 4
-    overnight: 那拉提
-    cover_place_id: narati
-    highlights:
-      - 早上巴音布魯克→那拉提（獨庫中段）
-      - 那拉提空中草原（半日玩）
-      - 哈薩克牧民氈房體驗
-      - 騎馬（可選）
-      - 晚上住那拉提山莊或鎮上酒店
-    notes: 輕鬆一天。那拉提分空中草原和河谷草原，建議空中草原。
+      - 九曲十八彎日落（必看，預留 17:00 後抵達）
+    notes: 獨庫公路 6-10 月通車。日落是巴音布魯克招牌。
 
   - day: 12
     date: "2026-08-27"
-    city_from: 那拉提
-    city_to: 賽里木湖
-    transport: 包車（G218 伊犁河谷）
-    altitude_m: 2073
-    distance_km: 420
-    drive_hours: 6
-    overnight: 賽里木湖（湖邊客棧）
-    cover_place_id: sayram_lake
+    city_from: 巴音布魯克
+    city_to: 伊寧
+    transport: 包車（獨庫中段 + G218 伊犁河谷）
+    altitude_m: 663
+    distance_km: 350
+    drive_hours: 8
+    overnight: 維也納飯店（伊寧喀贊其店，朋友推薦）
+    cover_place_id: narati
     highlights:
-      - 早上那拉提空中草原最後遊覽
-      - 那拉提→伊寧（伊犁河谷）
-      - 中午伊寧休息＋午餐
-      - 伊寧→賽里木湖
-      - 入住賽里木湖邊客棧
-      - 黃昏環湖看日落
-    notes: 一日 5-6h 駕車，輕鬆。賽里木湖邊客棧 RMB 500-800/晚，這趟最貴住宿但體驗值得。
+      - 早上巴音布魯克→那拉提（獨庫中段 4h）
+      - 那拉提空中草原（半日玩）
+      - 跟牧民去放牛羊，聽他們講草原故事
+      - 下午 16:00 出發伊寧（4h）
+      - 晚上抵伊寧，入住喀贊其店
+    notes: 那拉提半天玩完直接到伊寧，朋友推薦這條路線。
 
   - day: 13
     date: "2026-08-28"
-    city_from: 賽里木湖
-    city_to: 烏魯木齊
-    transport: 包車（G30 連霍高速）
-    altitude_m: 800
-    distance_km: 530
-    drive_hours: 7
-    overnight: 烏魯木齊市區
-    cover_place_id: guozigou
+    city_from: 伊寧
+    city_to: 賽里木湖
+    transport: 包車（G218 + G30）
+    altitude_m: 2073
+    distance_km: 220
+    drive_hours: 5
+    overnight: 賽湖天泉飯店（賽里木湖景區店，朋友推薦）
+    cover_place_id: sayram_lake
     highlights:
-      - 早 7:00 賽里木湖日出
-      - 賽里木湖環湖
-      - 賽里木湖→果子溝大橋（最美高速公路橋）
-      - 沿 G30 連霍高速→烏蘇→烏魯木齊
-      - 17:00 抵烏市市區，入住
-      - 晚餐建議：紅旗路五一夜市（新疆風味集大成）
-    notes: 抵達烏市先住市區，明天再玩烏市深度。果子溝大橋會經過，車上拍照（高速不能停）。
+      - 上午伊寧深度：坐「哈迪克」馬車穿梭老城巷子
+      - 喀贊其民俗村（藍房子、馬車）
+      - 六星街（俄羅斯/塔塔爾多民族風情）
+      - 伊黎河大橋日落
+      - 中午午餐：烤包子、手抓飯、霜淇淋
+      - 下午出發賽里木湖
+      - 黃昏抵達，環湖看日落
+    notes: 伊寧六星街是朋友強推的隱藏景點，超出片。中午吃飽再走，下午到賽里木湖剛好日落時間。
 
   - day: 14
     date: "2026-08-29"
-    city_from: 烏魯木齊
+    city_from: 賽里木湖
     city_to: 烏魯木齊
-    transport: 步行/包車市區
+    transport: 包車（G30 連霍高速 + 烏市市區）
     altitude_m: 800
-    distance_km: 20
-    drive_hours: 1
+    distance_km: 530
+    drive_hours: 7
     overnight: 烏魯木齊機場附近酒店
-    cover_place_id: xinjiang_museum
+    cover_place_id: guozigou
     highlights:
-      - 上午新疆博物館（國家一級館，西域古國文物超多，必看樓蘭美女、五星出東方）
-      - 中午午餐：博物館附近塔吉克餐廳
-      - 下午紅山公園（烏市標誌，鎮城之寶）
-      - 黃昏烏魯木齊國際大巴扎深度（伴手禮採買）
-      - 晚餐大巴扎美食街
-      - 21:00 transfer 機場附近酒店（明早 06:30 check-in）
-    notes: 烏市深度文化日。新疆博物館 9:30 開門，建議 9:00 排隊。週一閉館！如遇週一就只能去大巴扎。紅山公園是烏市制高點看夜景。
+      - 早 06:30 賽里木湖日出
+      - 環湖一圈拍照
+      - 賽里木湖→果子溝大橋（最美高速公路橋）
+      - 沿 G30 連霍高速→烏蘇→烏魯木齊（530km/7h）
+      - 17:00 抵烏市
+      - 烏魯木齊國際大巴扎（伴手禮採購）
+      - 紅山公園看夜景
+      - 晚上 transfer 機場附近酒店
+    notes: Day 15 早 09:05 飛機，必須住烏市機場附近。果子溝大橋會經過，車上拍照（高速不能停）。
 
   - day: 15
     date: "2026-08-30"
