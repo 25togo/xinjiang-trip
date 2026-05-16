@@ -79,8 +79,17 @@ def get_file(path: str) -> tuple[str, str]:
     return content, data["sha"]
 
 
-def update_file(path: str, content_str: str, message: str, sha: str) -> str:
-    """覆寫 repo 內檔案 + 同步寫本機 + 清快取。回傳 commit URL。"""
+def update_file(path: str, content_str: str, message: str, sha: str) -> dict:
+    """覆寫 repo 內檔案 + verify GitHub 真的收到 + 同步寫本機 + 清快取。
+
+    回傳 dict：{
+        "commit_url": "https://github.com/.../commit/abc",
+        "commit_sha": "abc1234",
+        "new_file_sha": "...",          # 下次 update 用
+        "verified": True/False,         # GET 回來內容 == 送出去的
+    }
+    Verify 失敗會 raise RuntimeError — 絕不可以靜默成功。
+    """
     _, owner, repo = _get_config()
     url = f"{GITHUB_API}/repos/{owner}/{repo}/contents/{path}"
     payload = {
@@ -91,6 +100,25 @@ def update_file(path: str, content_str: str, message: str, sha: str) -> str:
     r = requests.put(url, headers=_headers(), json=payload, timeout=20)
     if r.status_code not in (200, 201):
         raise RuntimeError(f"寫檔失敗 {path}: {r.status_code} {r.text[:200]}")
+
+    resp = r.json()
+    commit_url = resp.get("commit", {}).get("html_url", "")
+    commit_sha = resp.get("commit", {}).get("sha", "")
+    new_file_sha = resp.get("content", {}).get("sha", "")
+
+    # ===== verify：馬上 GET 回來確認 GitHub 真的收到 =====
+    # 不然 PUT 200 + 內容沒進去這種詭異案例會悄悄發生，user 看「✅ 已儲存」結果是空的
+    try:
+        verify_content, verify_sha = get_file(path)
+        verified = verify_content.strip() == content_str.strip()
+    except Exception as e:
+        raise RuntimeError(f"寫檔後 verify 失敗 {path}: {e}")
+
+    if not verified:
+        raise RuntimeError(
+            f"寫檔後 verify 內容不一致 {path}: GitHub 回來的內容跟送出去的不一樣。"
+            f"commit: {commit_url}"
+        )
 
     # 同步寫本機，避免等 1-2 分鐘 redeploy
     try:
@@ -107,7 +135,34 @@ def update_file(path: str, content_str: str, message: str, sha: str) -> str:
     except Exception:
         pass
 
-    return r.json().get("commit", {}).get("html_url", "")
+    return {
+        "commit_url": commit_url,
+        "commit_sha": commit_sha[:7] if commit_sha else "",
+        "new_file_sha": verify_sha,
+        "verified": True,
+    }
+
+
+def list_recent_commits(limit: int = 5) -> list:
+    """列出 repo 最近 N 個 commit。給編輯頁「最近儲存記錄」面板用。
+
+    回傳 [{sha, message, html_url, author, date}, ...]
+    """
+    _, owner, repo = _get_config()
+    url = f"{GITHUB_API}/repos/{owner}/{repo}/commits"
+    r = requests.get(url, headers=_headers(), params={"per_page": limit}, timeout=10)
+    if r.status_code != 200:
+        return []
+    out = []
+    for c in r.json():
+        out.append({
+            "sha": c["sha"][:7],
+            "message": c["commit"]["message"].split("\n")[0],
+            "html_url": c["html_url"],
+            "author": c["commit"]["author"]["name"],
+            "date": c["commit"]["author"]["date"][:10],
+        })
+    return out
 
 
 def upload_image(file_bytes: bytes, filename: str, message: str = "feat: 上傳景點圖") -> str:

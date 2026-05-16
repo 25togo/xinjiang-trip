@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
 import yaml
-from utils.github_sync import is_configured, show_setup_instructions, get_file, update_file, upload_image
+from utils.github_sync import is_configured, show_setup_instructions, get_file, update_file, upload_image, list_recent_commits
 
 st.set_page_config(page_title="編輯日程", page_icon="✏️", layout="wide")
 st.title("✏️ 編輯日程")
@@ -16,6 +16,35 @@ st.caption("按天編輯：選 Day → 加/改/刪景點 → 自動同步")
 if not is_configured():
     show_setup_instructions()
     st.stop()
+
+
+def show_save_result(result: dict, label: str):
+    """儲存後寫入 session_state，rerun 後在頁首 banner 顯示憑證。"""
+    if "save_log" not in st.session_state:
+        st.session_state["save_log"] = []
+    st.session_state["save_log"].insert(0, {
+        "label": label,
+        "commit_sha": result.get("commit_sha", ""),
+        "commit_url": result.get("commit_url", ""),
+        "verified": result.get("verified"),
+    })
+    st.session_state["save_log"] = st.session_state["save_log"][:10]
+    st.rerun()
+
+
+# ===== 頁首：上次儲存結果 banner（rerun 後也看得到）=====
+if st.session_state.get("save_log"):
+    last = st.session_state["save_log"][0]
+    if last.get("verified"):
+        st.success(
+            f"✅ 上一次儲存：「{last['label']}」已寫進 GitHub — commit "
+            f"[`{last['commit_sha']}`]({last['commit_url']})（按連結可直接看到 diff）"
+        )
+    else:
+        st.error(
+            f"⚠️ 上一次儲存「{last['label']}」verify 失敗 — "
+            f"請打開 [{last['commit_sha']}]({last['commit_url']}) 人工確認"
+        )
 
 # ---------- 讀資料 ----------
 try:
@@ -100,11 +129,10 @@ with st.expander(f"📝 Day {selected_day} 的備註與封面", expanded=False):
             current_day_data["notes"] = new_notes
             current_day_data["overnight"] = new_overnight
             try:
-                save_itin(f"edit(UI): Day {selected_day} 備註/封面")
-                st.success("✅ 已儲存 Day 資料！")
-                st.rerun()
+                result = save_itin(f"edit(UI): Day {selected_day} 備註/封面")
+                show_save_result(result, f"Day {selected_day} 備註/封面")
             except Exception as e:
-                st.error(f"儲存失敗：{e}")
+                st.error(f"❌ 儲存失敗（GitHub 沒收到）：{e}")
 
 st.markdown("---")
 
@@ -173,29 +201,26 @@ for idx, p in enumerate(today_places):
                 p["day"] = sorted(new_days)
                 p["image_url"] = pasted
                 try:
-                    save_places(f"edit(UI): {p['name']} 景點修改")
-                    st.success("✅ 已儲存！")
-                    st.rerun()
+                    result = save_places(f"edit(UI): {p['name']} 景點修改")
+                    show_save_result(result, f"{p['name']} 景點修改")
                 except Exception as e:
-                    st.error(f"儲存失敗：{e}")
+                    st.error(f"❌ 儲存失敗（GitHub 沒收到）：{e}")
 
             if remove_day_btn:
                 p["day"] = [d for d in p.get("day", []) if d != selected_day]
                 try:
-                    save_places(f"edit(UI): {p['name']} 從 Day {selected_day} 移除")
-                    st.success(f"✅ 已從 Day {selected_day} 移除「{p['name']}」")
-                    st.rerun()
+                    result = save_places(f"edit(UI): {p['name']} 從 Day {selected_day} 移除")
+                    show_save_result(result, f"{p['name']} 從 Day {selected_day} 移除")
                 except Exception as e:
-                    st.error(f"儲存失敗：{e}")
+                    st.error(f"❌ 儲存失敗（GitHub 沒收到）：{e}")
 
             if delete_btn:
                 places_data["places"] = [x for x in places_data["places"] if x["id"] != p["id"]]
                 try:
-                    save_places(f"edit(UI): 刪除景點 {p['name']}")
-                    st.success(f"✅ 已刪除「{p['name']}」")
-                    st.rerun()
+                    result = save_places(f"edit(UI): 刪除景點 {p['name']}")
+                    show_save_result(result, f"刪除 {p['name']}")
                 except Exception as e:
-                    st.error(f"刪除失敗：{e}")
+                    st.error(f"❌ 刪除失敗（GitHub 沒收到）：{e}")
 
 # ---------- 新增景點 ----------
 st.markdown("---")
@@ -257,8 +282,24 @@ with st.form("add_new_place"):
                 places_data["places"].append(new_place)
 
                 try:
-                    save_places(f"add(UI): 新增景點 {new_name}")
-                    st.success(f"✅ 已新增「{new_name}」到 Day {', '.join(str(d) for d in new_days_add)}")
-                    st.rerun()
+                    result = save_places(f"add(UI): 新增景點 {new_name}")
+                    show_save_result(result, f"新增 {new_name} 到 Day {', '.join(str(d) for d in new_days_add)}")
                 except Exception as e:
-                    st.error(f"新增失敗：{e}")
+                    st.error(f"❌ 新增失敗（GitHub 沒收到）：{e}")
+
+# ---------- 最近儲存記錄（從 GitHub 真實讀回，不靠 session_state） ----------
+st.markdown("---")
+st.markdown("### 📜 最近儲存記錄（從 GitHub 真實讀回）")
+st.caption("這裡顯示的是 GitHub 真的收到的 commit，按下儲存後就會多一筆。沒看到就是沒存進去。")
+try:
+    commits = list_recent_commits(limit=8)
+    if not commits:
+        st.info("還沒有任何 commit。")
+    else:
+        for c in commits:
+            badge = "🟢" if c["message"].startswith(("edit(UI)", "add(UI)")) else "⚪"
+            st.markdown(
+                f"{badge} `{c['sha']}` · {c['date']} · [{c['message']}]({c['html_url']}) · {c['author']}"
+            )
+except Exception as e:
+    st.error(f"讀取 commit 列表失敗：{e}")
