@@ -1,0 +1,64 @@
+# Ctrip（攜程）南疆 15 天行程參考
+# 出發前可以對照這些攜程套裝/包車產品的價格與行程，幫助議價包車師傅
+# 用法：
+#   1. 在 ctrip.com 搜尋「南疆 15 日」「喀什 包車」「獨庫公路」
+#   2. 把有興趣的套裝 URL 貼到 6_預算記帳 頁面 → Ctrip 比價區
+#   3. 系統會記錄價格、行程、聯絡方式做對比
+
+search_shortcuts:
+  - label: 南疆 15 日深度遊（私家團）
+    url: https://vacations.ctrip.com/list/whole-fc-domestic/d-southern_xinjiang2691/?searchKey=南疆15日
+    note: 私家團最接近自由行體驗
+
+  - label: 喀什-塔縣-紅其拉甫 包車
+    url: https://www.ctrip.com/?keyword=喀什+包車+紅其拉甫
+    note: 直接搜包車服務
+
+  - label: 獨庫公路 自駕/包車
+    url: https://vacations.ctrip.com/list/whole-fc-domestic/d-dukugonglu2691/
+    note: 獨庫公路專題
+
+  - label: 南疆 跟團遊 比價
+    url: https://vacations.ctrip.com/list/group-fc-domestic/d-southern_xinjiang2691/
+    note: 看跟團價當底價
+
+  - label: 烏魯木齊出發 南疆環線
+    url: https://vacations.ctrip.com/list/whole-fc-domestic/d-urumqi61/?searchKey=南疆環線15日
+    note: 一般從烏市出發
+
+  - label: 喀什 自由行
+    url: https://hotels.ctrip.com/hotels/kashgar64
+    note: 訂喀什飯店比價
+
+# 參考行情區間（從攜程觀察，2026 暑期）
+typical_pricing:
+  group_tour_15d:
+    label: 跟團 15 日（含機票）
+    per_person_twd: 50000-70000
+    note: 行程趕、購物站多
+
+  private_car_15d:
+    label: 私家團/包車 15 日（含住宿）
+    per_person_twd: 90000-130000
+    note: 體驗最接近自由行
+
+  car_only_15d:
+    label: 純包車（不含住宿）
+    total_rmb: 16500-20000
+    twd_equivalent: 71700-87000
+    note: 自由行最常選這個
+
+  hotel_avg:
+    label: 平均住宿（兩人房/晚）
+    rmb: 400-500
+    note: 攜程訂往往 9 折以下
+
+# 預先填好的比價欄位（出發前自己加）
+user_comparisons:
+  - vendor: ""
+    product_name: ""
+    price_twd: 0
+    url: ""
+    pros: ""
+    cons: ""
+    saved_at: ""

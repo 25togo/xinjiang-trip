@@ -1,0 +1,133 @@
+documents:
+  - id: taibao
+    name: 台胞證
+    required: true
+    deadline_days_before: 30
+    apply_location: 中華旅行社 / 各大旅行社代辦
+    cost_twd: 1500
+    duration_days: 14
+    notes:
+      - 5 年效期，建議直接辦 5 年版（多花 500 元省得 3 年後重辦）
+      - 需要：身分證影本、6 個月內 2 吋彩色照片 2 張、申請表
+      - 旅行社代辦最快 7 天可拿，自辦 14 天
+      - 過期或剩不到 6 個月效期都辦不了入境
+    checklist:
+      - 拍攝符合規格的大頭照
+      - 影印身分證正反面
+      - 找代辦旅行社（鳳凰、雄獅、易遊網都可）
+      - 取件確認效期超過出發日 6 個月
+
+  - id: bianfang
+    name: 邊防證
+    required: true
+    deadline_days_before: 0
+    apply_location: 喀什公安局（落地當天辦）
+    cost_twd: 100
+    duration_days: 1
+    notes:
+      - 塔什庫爾干、紅其拉甫、中巴邊境必備
+      - 包車師傅多半可代辦（要事先講）
+      - 帶台胞證正本＋住宿登記
+      - 不能在台灣辦，只能到大陸辦
+      - 有效期通常 1 個月，這趟用足夠
+    checklist:
+      - 出發前跟包車師傅確認他可代辦
+      - 落地喀什第一天上午處理
+      - 確認效期涵蓋整個塔縣行程
+
+  - id: insurance
+    name: 旅遊保險（含高原）
+    required: true
+    deadline_days_before: 7
+    apply_location: 國泰 / 富邦 / 安達 / Allianz
+    cost_twd: 4000
+    duration_days: 1
+    notes:
+      - 紅其拉甫 4733m，普通旅平險不理賠高原症
+      - 必須選「含高海拔活動」的方案
+      - 醫療額度建議 500 萬以上
+      - 含緊急後送回台（重要）
+      - 兩人合計約 NT$4000
+    checklist:
+      - 出發前 7 天上網投保（線上即時生效）
+      - 列印保單 PDF 帶在身上
+      - 記下 24 小時急難救助電話
+
+  - id: visa
+    name: 中國簽證
+    required: false
+    deadline_days_before: 0
+    apply_location: 不需要
+    cost_twd: 0
+    duration_days: 0
+    notes:
+      - 台胞證即免簽，不需另辦簽證
+      - 此項僅供確認，無需動作
+
+  - id: yuan
+    name: 人民幣現金
+    required: true
+    deadline_days_before: 14
+    apply_location: 台灣銀行 / 兆豐銀行
+    cost_twd: 50000
+    duration_days: 1
+    notes:
+      - 建議帶 RMB 8000-10000 現金（兩人）
+      - 大部分支付用支付寶/微信掃碼
+      - 偏遠地區（塔縣、巴音布魯克氈房）只收現金
+      - 換 100 元面額為主，搭配少量 50/20/10
+    checklist:
+      - 確認台胞證已辦好（換匯需證件）
+      - 至銀行預約大額換匯
+      - 出發前一週領出
+
+  - id: alipay
+    name: 支付寶國際版
+    required: true
+    deadline_days_before: 14
+    apply_location: 手機 APP
+    cost_twd: 0
+    duration_days: 1
+    notes:
+      - 2026 起支付寶開放國際信用卡綁定（不需大陸銀行帳號）
+      - 綁台灣 Visa/Master 即可使用，手續費 3%
+      - 單筆上限 RMB 5000，年限 RMB 50000
+      - 微信支付有類似功能（Tour Pay）
+    checklist:
+      - 下載支付寶 APP
+      - 完成台胞身份認證
+      - 綁定台灣信用卡測試小額付款
+
+  - id: esim
+    name: 中國上網方案
+    required: true
+    deadline_days_before: 7
+    apply_location: 淘寶 / 機場辦中國移動
+    cost_twd: 500
+    duration_days: 1
+    notes:
+      - 推薦淘寶買「新疆可用」eSIM（500 元/15 天 30G）
+      - 中國移動實體卡機場辦也可，但要本人台胞證
+      - 不需 VPN 也能用 LINE/Google？→ 大陸 SIM 卡也是會被牆，需要漫遊或 VPN
+      - 建議：台灣門號開國際漫遊（每日 599 吃到飽）
+    checklist:
+      - 開通台灣門號國際漫遊（中華電信/台哥大）
+      - 出發前一天啟用
+
+  - id: hat_sunscreen
+    name: 高原應對藥品
+    required: true
+    deadline_days_before: 7
+    apply_location: 屈臣氏 / 康是美
+    cost_twd: 1500
+    duration_days: 1
+    notes:
+      - 紅景天膠囊（出發前 7 天開始吃）
+      - 高原安 / 諾迪康（高反應急）
+      - 普拿疼（頭痛）
+      - 暈車藥（山路必備）
+      - 整腸藥（水土不服）
+      - 創可貼、優碘
+    checklist:
+      - 採購齊全
+      - 紅景天提前 7 天開始服用

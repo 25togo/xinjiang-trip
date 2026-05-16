@@ -1,0 +1,251 @@
+trip:
+  name: 2026 南疆 15 天深度遊
+  start_date: "2026-08-15"
+  end_date: "2026-08-29"
+  travelers: 2
+  route_type: 帕米爾盤龍古道＋紅其拉甫＋獨庫公路全段（喀什進、烏魯木齊出 開口票）
+  vehicle: 包車（單日 RMB 1100-1300）
+  flight_in: 台北 → 廣州/香港/成都 → 喀什（KHG）
+  flight_out: 烏魯木齊（URC） → 香港/廣州 → 台北
+
+days:
+  - day: 1
+    date: "2026-08-15"
+    city_from: 台北
+    city_to: 喀什
+    transport: 飛機（雙轉機 台北→廣州/香港/成都→喀什）
+    altitude_m: 1289
+    distance_km: 0
+    drive_hours: 0
+    overnight: 喀什
+    highlights:
+      - 早上桃園機場出發
+      - 中轉廣州（南航）或香港（國泰）或成都（川航）
+      - 抵達喀什機場（KHG），時間多半傍晚-晚上
+      - 包車師傅機場接機
+      - 入住喀什酒店
+    notes: 喀什沒有從台灣直飛的航班，要雙轉機。買開口票（喀什進、烏市出）。第一天落地晚，先睡覺，明天辦邊防證。
+
+  - day: 2
+    date: "2026-08-16"
+    city_from: 喀什
+    city_to: 喀什
+    transport: 步行/包車市區
+    altitude_m: 1289
+    distance_km: 5
+    drive_hours: 1
+    overnight: 喀什
+    highlights:
+      - 上午到喀什公安局辦邊防證（塔縣/紅其拉甫/盤龍古道必備）
+      - 換 RMB 現金（建議帶 5000-10000）
+      - 啟用中國 eSIM 或辦中國移動實體卡
+      - 下午艾提尕爾清真寺
+      - 老城周邊散步適應
+    notes: 邊防證必須當天辦，要帶台胞證正本＋住宿登記。包車師傅通常會代辦。
+
+  - day: 3
+    date: "2026-08-17"
+    city_from: 喀什
+    city_to: 喀什
+    transport: 步行/包車市區
+    altitude_m: 1289
+    distance_km: 10
+    drive_hours: 1
+    overnight: 喀什
+    highlights:
+      - 喀什老城（高台民居、百年茶館）
+      - 大巴扎（週日最熱鬧，週六也有）
+      - 香妃墓（阿帕克霍加麻札）
+      - 維吾爾傳統手工藝街
+    notes: 老城內走路為主，午後最熱可進茶館。穿著遮肩膀及膝。多一天喀什能更深度體驗。
+
+  - day: 4
+    date: "2026-08-18"
+    city_from: 喀什
+    city_to: 塔什庫爾干
+    transport: 包車（314 國道帕米爾段）
+    altitude_m: 3100
+    distance_km: 295
+    drive_hours: 7
+    overnight: 塔什庫爾干
+    highlights:
+      - 蓋孜檢查站（出示邊防證）
+      - 白沙湖＋白沙山（停留拍照 30 分鐘）
+      - 卡拉庫里湖（慕士塔格峰倒影，海拔 3600m）
+      - 抵達塔縣，住塔吉克民宿或冰山賓館
+    notes: 上升 1800m，部分人會頭痛。準備紅景天、攜帶氧氣。沿路 4 個檢查站。
+
+  - day: 5
+    date: "2026-08-19"
+    city_from: 塔什庫爾干
+    city_to: 塔什庫爾干
+    transport: 包車
+    altitude_m: 4733
+    distance_km: 260
+    drive_hours: 6
+    overnight: 塔什庫爾干
+    highlights:
+      - 紅其拉甫口岸（中巴邊境，海拔 4733m）
+      - 中巴 7 號界碑合影
+      - 回程訪石頭城（公主堡遺址）
+      - 金草灘濕地（傍晚光線最美）
+    notes: 紅其拉甫不能久留（含氧 60%），拍照 30 分鐘就走。一定要含氧設備。
+
+  - day: 6
+    date: "2026-08-20"
+    city_from: 塔什庫爾干
+    city_to: 塔什庫爾干
+    transport: 包車（314 國道塔瓦段）
+    altitude_m: 4200
+    distance_km: 200
+    drive_hours: 6
+    overnight: 塔什庫爾干
+    highlights:
+      - 塔縣→瓦恰鄉 盤龍古道（639 個 S 形彎道）
+      - 盤龍古道網紅觀景台俯瞰整條公路盤旋如龍
+      - 沿途帕米爾高原牧場、塔吉克族村莊
+      - 海拔 3000-4200m 變化
+      - 瓦恰鄉午餐後原路返塔縣
+    notes: 盤龍古道 2019 年通車，是 314 國道塔縣到瓦恰段。沒護欄、髮夾彎多，包車師傅必須熟此段。海拔變化劇烈，車上備氧氣。下午 4 點前回塔縣以免天黑開山路。
+
+  - day: 7
+    date: "2026-08-21"
+    city_from: 塔什庫爾干
+    city_to: 葉城
+    transport: 包車（原路返喀什再轉葉城）
+    altitude_m: 1380
+    distance_km: 500
+    drive_hours: 9
+    overnight: 葉城
+    highlights:
+      - 下高原（沿 314 國道）
+      - 中午回喀什吃午餐
+      - 下午轉 219 國道往葉城
+      - 葉城零公里紀念碑（新藏線起點）
+    notes: 這天車程最長。下高原後身體會明顯舒服。葉城住宿選擇少，建議連鎖商旅。
+
+  - day: 8
+    date: "2026-08-22"
+    city_from: 葉城
+    city_to: 和田
+    transport: 包車（315 國道，崑崙山北麓）
+    altitude_m: 1380
+    distance_km: 410
+    drive_hours: 6
+    overnight: 和田
+    highlights:
+      - 沿崑崙山北麓行駛
+      - 皮山縣午餐
+      - 玉龍喀什河觀景（採玉河）
+      - 和田老城散步
+    notes: 沿路是新疆最少觀光客的路段，景色蒼涼。和田治安近年改善很多。
+
+  - day: 9
+    date: "2026-08-23"
+    city_from: 和田
+    city_to: 和田
+    transport: 包車市區
+    altitude_m: 1380
+    distance_km: 30
+    drive_hours: 1
+    overnight: 和田
+    highlights:
+      - 和田博物館（西域古國文物）
+      - 玉龍喀什河採玉
+      - 艾德萊斯絲綢工坊
+      - 和田夜市（烤包子、烤全羊）
+    notes: 和田玉真假難辨，不建議在路邊買大件。夜市是體驗重點。
+
+  - day: 10
+    date: "2026-08-24"
+    city_from: 和田
+    city_to: 阿克蘇
+    transport: 包車（沙漠公路，217 國道）
+    altitude_m: 1100
+    distance_km: 550
+    drive_hours: 8
+    overnight: 阿克蘇
+    highlights:
+      - 穿越塔克拉瑪干沙漠公路
+      - 沙漠胡楊林（中途休息點）
+      - 抵達阿克蘇晚餐
+    notes: 沙漠公路全程加油站少，師傅會提前準備。8 月沙漠白天 40°C+。
+
+  - day: 11
+    date: "2026-08-25"
+    city_from: 阿克蘇
+    city_to: 庫車
+    transport: 包車（連霍高速）
+    altitude_m: 1100
+    distance_km: 270
+    drive_hours: 4
+    overnight: 庫車
+    highlights:
+      - 阿克蘇→庫車
+      - 克孜爾石窟（古龜茲佛教遺址）
+      - 庫車老城＋大寺
+      - 庫車大巴扎晚餐
+    notes: 克孜爾石窟壁畫保存有限，但是中國最早佛教石窟。需要排隊買票。
+
+  - day: 12
+    date: "2026-08-26"
+    city_from: 庫車
+    city_to: 巴音布魯克
+    transport: 包車（獨庫公路南段）
+    altitude_m: 2400
+    distance_km: 350
+    drive_hours: 7
+    overnight: 巴音布魯克
+    highlights:
+      - 獨庫公路 217 國道南段
+      - 鐵力買提達坂（雪山公路）
+      - 巴音布魯克草原（天鵝湖）
+      - 九曲十八彎日落（必看）
+    notes: 獨庫公路 6-10 月通車。日落是巴音布魯克招牌，預留 17:00 後抵達觀景台。
+
+  - day: 13
+    date: "2026-08-27"
+    city_from: 巴音布魯克
+    city_to: 那拉提
+    transport: 包車
+    altitude_m: 1800
+    distance_km: 160
+    drive_hours: 4
+    overnight: 那拉提
+    highlights:
+      - 那拉提大草原（空中草原）
+      - 哈薩克牧民氈房體驗
+      - 騎馬（可選）
+    notes: 那拉提分空中草原和河谷草原，建議空中草原。氈房住宿一晚是體驗重點。
+
+  - day: 14
+    date: "2026-08-28"
+    city_from: 那拉提
+    city_to: 烏魯木齊
+    transport: 包車（獨庫公路北段）→ 高速
+    altitude_m: 800
+    distance_km: 600
+    drive_hours: 10
+    overnight: 烏魯木齊
+    highlights:
+      - 獨庫公路北段（那拉提→獨山子）
+      - 喬爾瑪烈士陵園（修路犧牲紀念）
+      - 老虎口峽谷
+      - 抵達烏魯木齊
+    notes: 這天車程很長，建議清晨 6 點出發。北段隧道多，景色不如南段。
+
+  - day: 15
+    date: "2026-08-29"
+    city_from: 烏魯木齊
+    city_to: 台北
+    transport: 飛機（轉香港/廣州→台北）
+    altitude_m: 800
+    distance_km: 0
+    drive_hours: 0
+    overnight: 機上
+    highlights:
+      - 上午烏魯木齊國際大巴扎（最後採購）
+      - 國際大巴扎吃午餐
+      - 下午烏魯木齊地窩堡機場（URC）出發
+      - 經香港或廣州轉機回台北
+    notes: 開口票回程從烏市出發。大巴扎可買葡萄乾、巴旦木、玉石（小件）、艾德萊斯絲巾。

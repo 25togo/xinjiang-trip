@@ -1,0 +1,70 @@
+currency:
+  base: TWD
+  rmb_to_twd: 4.35  # 2026-05 參考匯率
+
+categories:
+  - name: 機票
+    estimate_twd: 50000
+    per_person: false
+    detail: 兩人來回，台北→廣州/上海→烏魯木齊；8 月旺季
+    saving_tip: 6 月底前訂可省 1-2 萬
+
+  - name: 包車（15 天）
+    estimate_twd: 70000
+    per_person: false
+    detail: RMB 1100/天 × 15 天 = 16500 RMB
+    saving_tip: 找師傅一手價可砍到 RMB 900/天
+
+  - name: 住宿
+    estimate_twd: 26000
+    per_person: false
+    detail: 13 晚 × RMB 460/晚平均 = 6000 RMB
+    saving_tip: 用攜程/飛豬訂可省 10-15%
+
+  - name: 飲食
+    estimate_twd: 26000
+    per_person: false
+    detail: 兩人 15 天 × RMB 200/人/天 = 6000 RMB
+    saving_tip: 中午吃當地小館可省一半
+
+  - name: 門票/景區
+    estimate_twd: 10000
+    per_person: false
+    detail: 卡拉庫里湖、紅其拉甫、克孜爾石窟、巴音布魯克等景區票
+    saving_tip: 多數景區開放老人/學生優惠
+
+  - name: 邊防證代辦
+    estimate_twd: 200
+    per_person: false
+    detail: RMB 50 × 2 人；包車師傅代辦
+    saving_tip: ~
+
+  - name: 保險
+    estimate_twd: 4000
+    per_person: false
+    detail: 兩人含高原 + 緊急後送
+    saving_tip: ~
+
+  - name: 通訊/eSIM
+    estimate_twd: 1500
+    per_person: false
+    detail: 兩人各 1 張 15 天 eSIM
+    saving_tip: 台灣門號開漫遊吃到飽月租計算未必划算
+
+  - name: 機場接送/雜支
+    estimate_twd: 3000
+    per_person: false
+    detail: 烏魯木齊接送＋路上小費＋雜支
+    saving_tip: ~
+
+  - name: 採購/伴手禮
+    estimate_twd: 10000
+    per_person: false
+    detail: 葡萄乾、巴旦木、艾德萊斯絲巾、小件玉石
+    saving_tip: 大巴扎要殺價
+
+totals:
+  combined_twd: 200700
+  per_person_twd: 100350
+  combined_rmb: 46000
+  note: 對應「5-7 萬人均」會超出。要省的話砍住宿(改連鎖)+機票早訂可降到 7-8 萬人均。

@@ -1,0 +1,310 @@
+places:
+  - id: urumqi
+    name: 烏魯木齊
+    type: city
+    lat: 43.825592
+    lng: 87.616848
+    day: [14, 15]
+    note: 新疆首府，國際機場 URC（開口票出境機場）
+
+  - id: kashgar
+    name: 喀什老城
+    type: city
+    lat: 39.467663
+    lng: 75.989138
+    day: [1, 2, 3, 7]
+    note: 古絲路重鎮，維吾爾文化中心，KHG 機場入境
+
+  - id: id_kah_mosque
+    name: 艾提尕爾清真寺
+    type: attraction
+    lat: 39.4720
+    lng: 75.9842
+    day: [2]
+    note: 中國最大清真寺，建於 1442 年
+
+  - id: kashgar_grand_bazaar
+    name: 喀什大巴扎
+    type: bazaar
+    lat: 39.4710
+    lng: 75.9912
+    day: [3]
+    note: 中亞最大集市，週日最熱鬧
+
+  - id: xiangfei_tomb
+    name: 香妃墓（阿帕克霍加麻札）
+    type: attraction
+    lat: 39.4880
+    lng: 76.0182
+    day: [3]
+    note: 17 世紀和卓家族墓
+
+  - id: gez_checkpoint
+    name: 蓋孜檢查站
+    type: checkpoint
+    lat: 38.6700
+    lng: 75.5500
+    day: [4]
+    note: 出示邊防證、台胞證
+
+  - id: baisha_lake
+    name: 白沙湖＋白沙山
+    type: attraction
+    lat: 38.3850
+    lng: 75.1810
+    day: [4]
+    note: 海拔 3300m，沙山倒影
+
+  - id: karakul_lake
+    name: 卡拉庫里湖
+    type: attraction
+    lat: 38.4500
+    lng: 75.0540
+    day: [4]
+    note: 海拔 3600m，慕士塔格峰倒影
+
+  - id: tashkurgan
+    name: 塔什庫爾干
+    type: city
+    lat: 37.7780
+    lng: 75.2300
+    day: [4, 5, 6]
+    note: 塔吉克族自治縣，海拔 3100m
+
+  - id: stone_city
+    name: 石頭城（公主堡遺址）
+    type: attraction
+    lat: 37.7920
+    lng: 75.2350
+    day: [5]
+    note: 唐代朅盤陀國遺址
+
+  - id: jincaotan
+    name: 金草灘濕地
+    type: attraction
+    lat: 37.7900
+    lng: 75.2400
+    day: [5]
+    note: 塔縣旁草原濕地，傍晚光線最美
+
+  - id: khunjerab
+    name: 紅其拉甫口岸
+    type: border
+    lat: 36.8520
+    lng: 75.4180
+    day: [5]
+    note: 中巴邊境，海拔 4733m，含氧 60%
+
+  - id: panlong
+    name: 盤龍古道（觀景台）
+    type: attraction
+    lat: 37.4300
+    lng: 75.4900
+    day: [6]
+    note: 314 國道塔縣→瓦恰段，639 個 S 形彎道，海拔 3000-4200m
+
+  - id: wacha
+    name: 瓦恰鄉
+    type: attraction
+    lat: 37.5000
+    lng: 75.7800
+    day: [6]
+    note: 盤龍古道終點塔吉克族村莊，午餐點
+
+  - id: yecheng
+    name: 葉城
+    type: city
+    lat: 37.8820
+    lng: 77.4080
+    day: [7, 8]
+    note: 新藏線 219 國道零公里起點
+
+  - id: hotan
+    name: 和田
+    type: city
+    lat: 37.1100
+    lng: 79.9270
+    day: [8, 9, 10]
+    note: 古于闐國，玉石之鄉
+
+  - id: yulong_river
+    name: 玉龍喀什河
+    type: attraction
+    lat: 37.1200
+    lng: 80.0000
+    day: [8, 9]
+    note: 採玉河，每年發現和田玉
+
+  - id: hotan_night_market
+    name: 和田夜市
+    type: food
+    lat: 37.1110
+    lng: 79.9250
+    day: [9]
+    note: 烤包子、烤全羊、馕坑肉
+
+  - id: hotan_silk
+    name: 艾德萊斯絲綢工坊
+    type: attraction
+    lat: 37.1050
+    lng: 79.9300
+    day: [9]
+    note: 維吾爾傳統絲綢
+
+  - id: tarim_highway
+    name: 塔克拉瑪干沙漠公路
+    type: route
+    lat: 39.0000
+    lng: 81.0000
+    day: [10]
+    note: 全長 522 公里穿越世界第二大流動沙漠
+
+  - id: aksu
+    name: 阿克蘇
+    type: city
+    lat: 41.1680
+    lng: 80.2650
+    day: [10, 11]
+    note: 棉花之都，南疆物流中心
+
+  - id: kuqa
+    name: 庫車（龜茲）
+    type: city
+    lat: 41.7170
+    lng: 82.9620
+    day: [11, 12]
+    note: 古龜茲國，西域佛教重鎮
+
+  - id: kizil_caves
+    name: 克孜爾石窟
+    type: attraction
+    lat: 41.7760
+    lng: 82.5020
+    day: [11]
+    note: 中國最早佛教石窟，比敦煌早 200 年
+
+  - id: bayanbulak
+    name: 巴音布魯克草原
+    type: attraction
+    lat: 43.0290
+    lng: 84.1710
+    day: [12, 13]
+    note: 中國第二大草原，九曲十八彎日落
+
+  - id: tianer_lake
+    name: 天鵝湖
+    type: attraction
+    lat: 43.0850
+    lng: 84.1450
+    day: [12]
+    note: 巴音布魯克核心景區
+
+  - id: narati
+    name: 那拉提大草原
+    type: attraction
+    lat: 43.3180
+    lng: 84.1050
+    day: [13, 14]
+    note: 空中草原最美，哈薩克牧民聚居
+
+  - id: qiaoerma
+    name: 喬爾瑪烈士陵園
+    type: memorial
+    lat: 43.5200
+    lng: 84.6500
+    day: [14]
+    note: 紀念修建獨庫公路犧牲的解放軍
+
+  - id: dushanzi
+    name: 獨山子
+    type: city
+    lat: 44.3280
+    lng: 84.8860
+    day: [14]
+    note: 獨庫公路北端起點
+
+  - id: urumqi_bazaar
+    name: 烏魯木齊國際大巴扎
+    type: bazaar
+    lat: 43.7790
+    lng: 87.6310
+    day: [15]
+    note: 最後採購站，葡萄乾巴旦木玉石
+
+# 推薦住宿（兩人房單晚 RMB 參考）
+hotels:
+  - city: 喀什
+    name: 喀什老城蘇萊曼客棧 / 銀瑞林國際酒店
+    price_rmb: 400-600
+    note: 老城內民宿體驗、市區商旅選銀瑞林
+  - city: 塔什庫爾干
+    name: 帕米爾賓館 / 冰山賓館
+    price_rmb: 350-500
+    note: 含氧氣設備優先選；3 晚要訂同一家方便寄物
+  - city: 葉城
+    name: 葉城賓館
+    price_rmb: 300-400
+    note: 選擇少，連鎖商旅優先
+  - city: 和田
+    name: 和田賓館 / 維景國際
+    price_rmb: 350-500
+    note: 維景較新
+  - city: 阿克蘇
+    name: 阿克蘇大飯店
+    price_rmb: 300-400
+    note: 商務型即可
+  - city: 庫車
+    name: 庫車賓館 / 鴻泉假日
+    price_rmb: 300-450
+    note: 鴻泉新一點
+  - city: 巴音布魯克
+    name: 天鵝湖賓館 / 牧民氈房
+    price_rmb: 400-800
+    note: 氈房是體驗重點
+  - city: 那拉提
+    name: 那拉提山莊 / 牧民氈房
+    price_rmb: 400-700
+    note: 草原內氈房 vs 鎮上酒店二選一
+  - city: 烏魯木齊
+    name: 麥田國際青年旅舍 / 桔子水晶
+    price_rmb: 350-500
+    note: 機場 30 分鐘車程，建議市區
+
+# 推薦餐廳
+restaurants:
+  - city: 喀什
+    name: 百年老茶館（艾提尕爾旁）
+    type: 茶館
+    note: 老維吾爾人聚集地，配饟和奶茶
+  - city: 喀什
+    name: Marhaba 餐廳
+    type: 維吾爾菜
+    note: 老外多，菜品精緻
+  - city: 喀什
+    name: 大巴扎美食街
+    type: 小吃
+    note: 烤肉串、抓飯、酸奶冰
+  - city: 塔什庫爾干
+    name: 塔吉克族家訪餐
+    type: 塔吉克菜
+    note: 民宿安排家庭式手抓飯
+  - city: 瓦恰鄉
+    name: 瓦恰鄉小館
+    type: 塔吉克菜
+    note: 盤龍古道午餐，當地手抓羊肉
+  - city: 和田
+    name: 和田夜市
+    type: 夜市
+    note: 烤包子、馕坑肉、烤全羊
+  - city: 庫車
+    name: 庫車大馕店
+    type: 主食
+    note: 直徑 1 米的大馕地標
+  - city: 庫車
+    name: 龜茲牧場
+    type: 燒烤
+    note: 庫車本地人推薦
+  - city: 烏魯木齊
+    name: 國際大巴扎美食街
+    type: 綜合
+    note: 各民族風味集大成

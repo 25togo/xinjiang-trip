@@ -1,0 +1,82 @@
+categories:
+  - name: 證件/錢
+    items:
+      - { item: 台胞證, qty: 1, must: true, note: 正本+影本各一 }
+      - { item: 身分證, qty: 1, must: true, note: 國內備用 }
+      - { item: 保單列印, qty: 1, must: true, note: 24h 救助電話標紅 }
+      - { item: 人民幣現金, qty: 1, must: true, note: 8000-10000 RMB }
+      - { item: 信用卡（Visa/Master）, qty: 2, must: true, note: 分開放 }
+      - { item: 大頭照（緊急補辦用）, qty: 2, must: false, note: 萬一證件遺失補辦 }
+
+  - name: 衣著（8 月新疆 10-35°C 日夜溫差大）
+    items:
+      - { item: 短袖 T 恤, qty: 5, must: true, note: 速乾材質 }
+      - { item: 長袖薄外套, qty: 1, must: true, note: 防曬+早晚保暖 }
+      - { item: 厚刷毛外套, qty: 1, must: true, note: 紅其拉甫 0°C }
+      - { item: 防風雨衣, qty: 1, must: true, note: 山區突發降雨 }
+      - { item: 長褲, qty: 2, must: true, note: 防曬 }
+      - { item: 短褲, qty: 1, must: false, note: 沙漠白天熱 }
+      - { item: 內衣褲, qty: 5, must: true, note: 速乾 }
+      - { item: 厚襪, qty: 3, must: true, note: 高原保暖 }
+      - { item: 運動鞋, qty: 1, must: true, note: 防滑 }
+      - { item: 拖鞋, qty: 1, must: true, note: 室內用 }
+      - { item: 太陽眼鏡, qty: 1, must: true, note: 高原 UV 強 }
+      - { item: 寬邊帽/漁夫帽, qty: 1, must: true, note: 沙漠陽光直射 }
+      - { item: 圍巾/披肩, qty: 1, must: true, note: 進清真寺要遮肩 }
+
+  - name: 高原應對
+    items:
+      - { item: 紅景天膠囊, qty: 1, must: true, note: 出發前 7 天開始吃 }
+      - { item: 高原安/諾迪康, qty: 1, must: true, note: 高反應急 }
+      - { item: 含氧瓶, qty: 2, must: false, note: 紅其拉甫車上備用，當地買 }
+      - { item: 普拿疼, qty: 1, must: true, note: 頭痛 }
+      - { item: 暈車藥, qty: 1, must: true, note: 山路必備 }
+
+  - name: 防曬/清潔
+    items:
+      - { item: 防曬乳 SPF50+, qty: 1, must: true, note: 高原 UV 強 }
+      - { item: 護唇膏（含 SPF）, qty: 1, must: true, note: 紫外線 }
+      - { item: 乳液, qty: 1, must: true, note: 沙漠超乾燥 }
+      - { item: 濕紙巾, qty: 3, must: true, note: 沙漠/長途車 }
+      - { item: 衛生紙, qty: 5, must: true, note: 部分廁所沒紙 }
+      - { item: 牙刷牙膏, qty: 1, must: true, note: 飯店未必提供 }
+      - { item: 洗髮乳沐浴乳（旅行裝）, qty: 1, must: false, note: 飯店有但氈房沒有 }
+      - { item: 毛巾, qty: 1, must: false, note: 飯店有 }
+      - { item: 隱形眼鏡藥水, qty: 1, must: false, note: 沙漠勿戴 }
+
+  - name: 3C 配件
+    items:
+      - { item: 手機, qty: 2, must: true, note: 兩人各一 }
+      - { item: 手機充電線, qty: 2, must: true, note: }
+      - { item: 行動電源, qty: 1, must: true, note: 20000mAh 以下可上飛機 }
+      - { item: 萬用插座轉接, qty: 1, must: false, note: 大陸用 220V，台灣插頭可用 }
+      - { item: 相機/單眼, qty: 1, must: false, note: 風景很可拍 }
+      - { item: 相機電池+SD 卡, qty: 2, must: false, note: 備用 }
+      - { item: 旅充延長線, qty: 1, must: true, note: 飯店插座少 }
+      - { item: 自拍棒, qty: 1, must: false, note: }
+
+  - name: 通訊/上網
+    items:
+      - { item: 中國 eSIM 或實體 SIM, qty: 2, must: true, note: 兩人各一 }
+      - { item: VPN APP（出發前裝好）, qty: 1, must: true, note: ExpressVPN 或 Astrill }
+      - { item: 高德地圖 APP, qty: 1, must: true, note: 出發前下載離線地圖 }
+      - { item: 微信 WeChat, qty: 1, must: true, note: 與司機聯繫 }
+      - { item: 支付寶 Alipay, qty: 1, must: true, note: 行動支付 }
+
+  - name: 行李
+    items:
+      - { item: 行李箱 24-26 吋, qty: 2, must: true, note: 兩人各一 }
+      - { item: 後背包, qty: 2, must: true, note: 每日出遊用 }
+      - { item: 隨身腰包, qty: 1, must: false, note: 證件+現金分開放 }
+      - { item: 摺疊環保袋, qty: 2, must: false, note: 採買用 }
+      - { item: 行李秤, qty: 1, must: false, note: 回程怕超重 }
+      - { item: 行李鎖, qty: 2, must: true, note: TSA 鎖 }
+
+  - name: 雜物
+    items:
+      - { item: 雨傘, qty: 1, must: false, note: 山區可能下雨 }
+      - { item: 保溫水壺, qty: 2, must: true, note: 高原乾燥多喝水 }
+      - { item: 護照夾, qty: 1, must: false, note: 文件分類 }
+      - { item: 筆+小本, qty: 1, must: false, note: 入境表 }
+      - { item: 零食/巧克力, qty: 1, must: false, note: 車上補充 }
+      - { item: 圍巾或頸枕, qty: 1, must: false, note: 長途車程 }

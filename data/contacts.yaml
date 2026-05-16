@@ -1,0 +1,73 @@
+emergency:
+  - role: 包車師傅
+    name: （出發前填）
+    phone: ""
+    wechat: ""
+    note: 中途任何狀況第一通電話
+
+  - role: 朋友本人
+    name: （出發前填）
+    phone: ""
+    wechat: ""
+    note: 同行夥伴
+
+china_emergency:
+  - role: 報警
+    phone: "110"
+    note: 全國通用
+  - role: 救護車/醫療急救
+    phone: "120"
+    note: 全國通用
+  - role: 火警
+    phone: "119"
+    note: 全國通用
+  - role: 交通事故
+    phone: "122"
+    note: 全國通用
+  - role: 旅遊投訴熱線
+    phone: "12301"
+    note: 全國旅遊投訴
+
+taiwan_office:
+  - role: 海基會 24h 緊急服務
+    phone: "+886-2-2712-9292"
+    note: 台胞在陸急難救助
+  - role: 海基會（陸方對口為海協會）
+    phone: "+886-2-2718-1995"
+    note: 一般查詢
+
+insurance_company:
+  - role: 國泰人壽 24h 急難救助
+    phone: "+886-2-2755-9111"
+    note: 國泰客戶用
+  - role: 富邦產險 24h 急難救助
+    phone: "+886-2-7707-5181"
+    note: 富邦客戶用
+  - role: Allianz 安達 24h
+    phone: "+86-21-2308-8888"
+    note: 安達客戶用
+
+airlines:
+  - role: 中國南方航空 24h
+    phone: "95539"
+    note: CZ 班機
+  - role: 中國國際航空 24h
+    phone: "95583"
+    note: CA 班機
+  - role: 烏魯木齊地窩堡機場
+    phone: "+86-991-380-1453"
+    note: URC
+
+local_services:
+  - role: 喀什市公安局（辦邊防證）
+    phone: "+86-998-282-2456"
+    note: 第一天去辦
+  - role: 喀什機場
+    phone: "+86-998-292-2113"
+    note: KHG
+  - role: 和田機場
+    phone: "+86-903-202-3000"
+    note: HTN
+  - role: 庫車機場
+    phone: "+86-997-712-2202"
+    note: KCA
