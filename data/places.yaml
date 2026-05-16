@@ -60,7 +60,7 @@ places:
     lng: 75.5500
     day: [4]
     note: 出示邊防證、台胞證
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Muztagh_Ata_viewed_from_Karakoram_Highway.jpg/1280px-Muztagh_Ata_viewed_from_Karakoram_Highway.jpg"
 
   - id: baisha_lake
     name: 白沙湖＋白沙山
@@ -105,7 +105,7 @@ places:
     lng: 75.2400
     day: [4]
     note: 塔縣旁草原濕地，傍晚光線最美
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg/1280px-Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg"
 
   - id: panlong
     name: 盤龍古道（觀景台）
@@ -123,7 +123,7 @@ places:
     lng: 75.7800
     day: [5]
     note: 盤龍古道終點塔吉克族村莊，午餐點
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Peer_Ali.jpg/1280px-Peer_Ali.jpg"
 
   - id: yecheng
     name: 葉城
@@ -132,7 +132,7 @@ places:
     lng: 77.4080
     day: [6, 7]
     note: 新藏線 219 國道零公里起點
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%8F%B6%E5%9F%8E%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg/1280px-%E5%8F%B6%E5%9F%8E%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg"
 
   - id: hotan
     name: 和田
@@ -168,7 +168,7 @@ places:
     lng: 79.9300
     day: [7]
     note: 維吾爾傳統絲綢
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Weaving_silk%2C_Khotan.jpg/1280px-Weaving_silk%2C_Khotan.jpg"
 
   - id: tarim_highway
     name: 塔克拉瑪干沙漠公路
@@ -186,7 +186,7 @@ places:
     lng: 80.2650
     day: [8, 9]
     note: 棉花之都，南疆物流中心
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/%E9%98%BF%E5%85%8B%E8%8B%8F%E6%AD%A5%E8%A1%8C%E8%A1%97.jpg/1280px-%E9%98%BF%E5%85%8B%E8%8B%8F%E6%AD%A5%E8%A1%8C%E8%A1%97.jpg"
 
   - id: kuqa
     name: 庫車（龜茲）
@@ -242,15 +242,6 @@ places:
     note: 空中草原最美，哈薩克牧民聚居
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg"
 
-  - id: tekes
-    name: 特克斯八卦城
-    type: attraction
-    lat: 43.2150
-    lng: 81.8350
-    day: [12]
-    note: 全球唯一保留完整八卦造型的縣城，午餐+街景
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%E6%96%B0%E7%96%86-%E7%89%B9%E5%85%8B%E6%96%AF-%E5%85%AB%E5%8D%A6%E5%9F%8E-%E4%B9%8B%E4%B8%80%E5%8D%A6-%E6%88%91%E5%9C%A8%E5%9F%8E%E4%B8%AD%E5%BF%83_-_panoramio.jpg/1280px-%E6%96%B0%E7%96%86-%E7%89%B9%E5%85%8B%E6%96%AF-%E5%85%AB%E5%8D%A6%E5%9F%8E-%E4%B9%8B%E4%B8%80%E5%8D%A6-%E6%88%91%E5%9C%A8%E5%9F%8E%E4%B8%AD%E5%BF%83_-_panoramio.jpg"
-
   - id: yining
     name: 伊寧
     type: city
@@ -258,7 +249,7 @@ places:
     lng: 81.2980
     day: [12]
     note: 伊犁河谷中心，路過點
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ghulja-Yining_city_center.png/1280px-Ghulja-Yining_city_center.png"
 
   - id: sayram_lake
     name: 賽里木湖
