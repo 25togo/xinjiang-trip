@@ -22,7 +22,7 @@ places:
     type: city
     lat: 39.467663
     lng: 75.989138
-    day: [2, 3, 6]
+    day: [2, 3]
     note: 古絲路重鎮，維吾爾文化中心，KHG 機場入境
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Kashgar_old_city_IGP3776.jpg/1280px-Kashgar_old_city_IGP3776.jpg"
 
