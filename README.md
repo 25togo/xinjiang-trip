@@ -10,7 +10,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-預設 `http://localhost:8501`。
+預設 `http://localhost:8501`，免登入直接用。
 
 ## 結構
 

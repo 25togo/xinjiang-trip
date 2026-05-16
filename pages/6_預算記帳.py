@@ -122,26 +122,24 @@ with tab_split:
         st.info("還沒有記帳。")
     else:
         # 計算每人實付 vs 應付
-        my_paid = 0  # 我實際出
-        friend_paid = 0  # 朋友實際出
-        my_share = 0  # 我應付
-        friend_share = 0  # 朋友應付
+        my_paid = 0
+        friend_paid = 0
+        my_share = 0
+        friend_share = 0
 
         for e in expenses:
             amount = e["amount_rmb"]
             payer = e["payer"]
             sharing = e["sharing"]
 
-            # 實付
             if payer == "我":
                 my_paid += amount
             elif payer == "朋友":
                 friend_paid += amount
-            else:  # 公帳：兩人各 50%
+            else:
                 my_paid += amount / 2
                 friend_paid += amount / 2
 
-            # 應付
             if sharing == "均攤":
                 my_share += amount / 2
                 friend_share += amount / 2
@@ -166,7 +164,7 @@ with tab_split:
             c3.metric("結算", "兩不相欠")
 
         st.markdown("---")
-        st.markdown("**對方付款比例**")
+        st.markdown("**雙方付款金額**")
         c4, c5 = st.columns(2)
         c4.metric("我", fmt_rmb(my_paid))
         c5.metric("朋友", fmt_rmb(friend_paid))

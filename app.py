@@ -4,7 +4,6 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from utils.data_loader import load_itinerary, load_documents
 
 st.set_page_config(
     page_title="2026 南疆 15 天行程",
@@ -12,6 +11,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+from utils.data_loader import load_itinerary, load_documents
 
 itin = load_itinerary()
 docs = load_documents()
