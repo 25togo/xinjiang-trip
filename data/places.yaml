@@ -1,4 +1,13 @@
 places:
+  - id: shanghai
+    name: 上海（PVG 轉機）
+    type: city
+    lat: 31.1443
+    lng: 121.8083
+    day: [1, 2]
+    note: Day 1 過夜轉機，外灘看浦東夜景（如時間允許）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg/1280px-Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg"
+
   - id: urumqi
     name: 烏魯木齊
     type: city
