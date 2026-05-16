@@ -94,8 +94,8 @@ places:
     type: city
     lat: 37.7780
     lng: 75.2300
-    day: [4, 5, 6]
-    note: 塔吉克族自治縣，海拔 3100m；茗源民宿在托葛籣夏村
+    day: [4, 5]
+    note: 塔吉克族自治縣，海拔 3100m；茗源民宿在托葛籣夏村；住 2 晚（抵達+適應高度）
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg/1280px-Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg"
 
   - id: tajik_eagle_dance
@@ -148,26 +148,26 @@ places:
     type: route
     lat: 37.6000
     lng: 76.0000
-    day: [6]
+    day: [6, 7]
     note: 塔縣到莎車的古商道（朋友推薦），少人但景色原始
     image_url: ""
 
-  - id: yecheng
-    name: 葉城
+  - id: datong_xiang
+    name: 大同鄉（君宜牧家樂）
     type: city
-    lat: 37.8820
-    lng: 77.4080
-    day: [7]
-    note: 新藏線 219 國道零公里起點
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%8F%B6%E5%9F%8E%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg/1280px-%E5%8F%B6%E5%9F%8E%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg"
+    lat: 37.6500
+    lng: 76.5000
+    day: [6, 7]
+    note: 塔莎古道中段塔吉克牧民聚落，朋友推薦的家庭式民宿
+    image_url: ""
 
   - id: shache_palace
-    name: 莎車葉爾羌汗王宮
-    type: attraction
+    name: 莎車（葉爾羌汗王宮+阿曼尼莎汗王陵）
+    type: city
     lat: 38.4150
     lng: 77.2400
-    day: [8]
-    note: 葉爾羌汗國王宮+阿曼尼莎汗王陵，認識十二木卡姆藝術歷史（朋友推薦）
+    day: [7, 8]
+    note: 葉爾羌汗國（15-16 世紀）首都，認識十二木卡姆藝術歷史
     image_url: ""
 
   - id: hotan

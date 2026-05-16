@@ -109,60 +109,60 @@ days:
   - day: 6
     date: "2026-08-21"
     city_from: 塔什庫爾干
-    city_to: 塔什庫爾干
-    transport: 包車（314 國道塔瓦段）
-    altitude_m: 4200
-    distance_km: 200
-    drive_hours: 6
-    overnight: 茗源民宿（回塔縣住）
+    city_to: 大同鄉
+    transport: 包車（314 國道塔瓦段 + 塔莎古道）
+    altitude_m: 3500
+    distance_km: 280
+    drive_hours: 7
+    overnight: 君宜牧家樂（大同鄉，朋友推薦）
     cover_place_id: panlong
     highlights:
-      - 塔縣→盤龍古道（639 個 S 形彎道，2019 通車）
+      - 早 7:00 塔縣出發
+      - 盤龍古道（639 個 S 形彎道，2019 通車）
       - 經瓦恰鄉午餐
       - 塔莎古道（朋友推薦，少人但景色壯觀）
-      - 海拔 3000-4200m 變化，車上備氧氣
-      - 下午 4 點前回塔縣
-    notes: 盤龍古道+塔莎古道一日打包。沒護欄、髮夾彎多，師傅要熟此段。塔莎古道更原始，是朋友新增的隱藏景點。
+      - 傍晚抵大同鄉
+      - 入住君宜牧家樂（塔吉克族牧民家庭式體驗）
+    notes: 盤龍古道+塔莎古道一日打包後直接住大同鄉，不回塔縣。明天從大同鄉繼續往莎車。
 
   - day: 7
     date: "2026-08-22"
-    city_from: 塔什庫爾干
-    city_to: 葉城
-    transport: 包車（原路返喀什再轉葉城）
-    altitude_m: 1380
-    distance_km: 500
-    drive_hours: 9
-    overnight: 葉城賓館
-    cover_place_id: yecheng
+    city_from: 大同鄉
+    city_to: 莎車
+    transport: 包車（塔莎古道下段）
+    altitude_m: 1300
+    distance_km: 180
+    drive_hours: 6
+    overnight: 蘭歐飯店（莎車縣政務中心火車站店，朋友推薦）
+    cover_place_id: shache_palace
     highlights:
-      - 早 6:00 塔縣出發
-      - 下高原（沿 314 國道）
-      - 中午回喀什吃午餐
-      - 下午轉 219 國道往葉城
-      - 葉城零公里紀念碑（新藏線起點打卡）
-    notes: 這天車程最長。下高原後身體會明顯舒服。葉城住宿選擇少，連鎖商旅優先。
+      - 早 8:00 大同鄉出發
+      - 下高原（塔莎古道下段）
+      - 中午抵莎車縣
+      - 葉爾羌汗王宮（朋友推薦）
+      - 阿曼尼莎汗王陵（認識十二木卡姆藝術歷史）
+      - 紀念這位偉大的維吾爾女性藝術家
+      - 晚上住莎車蘭歐飯店
+    notes: 跳過葉城。莎車是葉爾羌汗國（15-16 世紀）首都，文化深度比葉城高。
 
   - day: 8
     date: "2026-08-23"
-    city_from: 葉城
+    city_from: 莎車
     city_to: 和田
     transport: 包車（315 國道，崑崙山北麓）
     altitude_m: 1380
-    distance_km: 470
-    drive_hours: 7
+    distance_km: 350
+    drive_hours: 5
     overnight: 維也納國際飯店（和田夜市甌越公館店）或錦江都城（和田夜市團結廣場店）
     cover_place_id: yulong_river
     highlights:
-      - 早 7:00 葉城出發
+      - 早 9:00 莎車出發（路程較短可悠閒）
       - 沿崑崙山北麓行駛
-      - 中午抵莎車縣
-      - 葉爾羌汗王宮＋阿曼尼莎汗王陵（朋友推薦，認識十二木卡姆藝術歷史）
-      - 14:00 莎車午餐後出發
-      - 下午抵和田
-      - 玉龍喀什河體驗撿和田玉
+      - 中午抵和田吃飯
+      - 下午玉龍喀什河體驗撿和田玉
       - 和田博物館
       - 晚上和田夜市（酒店步行 5 分鐘可達）
-    notes: 朋友推薦中途停莎車看葉爾羌汗王宮（不繞遠）。和田住宿選夜市旁，方便晚上去夜市。
+    notes: 莎車到和田路程比葉城到和田短一點，下午有更多時間玩和田。
 
   - day: 9
     date: "2026-08-24"
