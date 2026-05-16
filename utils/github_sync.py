@@ -80,7 +80,7 @@ def get_file(path: str) -> tuple[str, str]:
 
 
 def update_file(path: str, content_str: str, message: str, sha: str) -> str:
-    """覆寫 repo 內檔案。回傳 commit URL。"""
+    """覆寫 repo 內檔案 + 同步寫本機 + 清快取。回傳 commit URL。"""
     _, owner, repo = _get_config()
     url = f"{GITHUB_API}/repos/{owner}/{repo}/contents/{path}"
     payload = {
@@ -91,6 +91,22 @@ def update_file(path: str, content_str: str, message: str, sha: str) -> str:
     r = requests.put(url, headers=_headers(), json=payload, timeout=20)
     if r.status_code not in (200, 201):
         raise RuntimeError(f"寫檔失敗 {path}: {r.status_code} {r.text[:200]}")
+
+    # 同步寫本機，避免等 1-2 分鐘 redeploy
+    try:
+        from pathlib import Path
+        local_path = Path(__file__).resolve().parent.parent / path
+        local_path.parent.mkdir(parents=True, exist_ok=True)
+        local_path.write_text(content_str, encoding="utf-8")
+    except Exception:
+        pass  # 寫不進去就靠 redeploy（本地開發環境會成功，cloud 也通常可寫）
+
+    # 清 streamlit cache 讓所有頁面下次讀都是新版
+    try:
+        st.cache_data.clear()
+    except Exception:
+        pass
+
     return r.json().get("commit", {}).get("html_url", "")
 
 
