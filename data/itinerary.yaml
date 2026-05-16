@@ -275,27 +275,6 @@ days:
       - 晚上 transfer 機場附近酒店
     notes: Day 15 早 09:05 飛機，必須住烏市機場附近。
 
-  - day: 14
-    date: "2026-08-29"
-    city_from: 賽里木湖
-    city_to: 烏魯木齊
-    transport: 包車（G30 連霍高速 + 烏市市區）
-    altitude_m: 800
-    distance_km: 530
-    drive_hours: 7
-    overnight: 烏魯木齊機場附近酒店
-    cover_place_id: guozigou
-    highlights:
-      - 早 06:30 賽里木湖日出
-      - 環湖一圈拍照
-      - 賽里木湖→果子溝大橋（最美高速公路橋）
-      - 沿 G30 連霍高速→烏蘇→烏魯木齊（530km/7h）
-      - 17:00 抵烏市
-      - 烏魯木齊國際大巴扎（伴手禮採購）
-      - 紅山公園看夜景
-      - 晚上 transfer 機場附近酒店
-    notes: Day 15 早 09:05 飛機，必須住烏市機場附近。果子溝大橋會經過，車上拍照（高速不能停）。
-
   - day: 15
     date: "2026-08-30"
     city_from: 烏魯木齊
