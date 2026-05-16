@@ -6,7 +6,7 @@ places:
     lng: 87.616848
     day: [13, 14, 15]
     note: 新疆首府，國際機場 URC（開口票出境機場）
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Urumqi_Skyline_July_2019.jpg/330px-Urumqi_Skyline_July_2019.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Urumqi_Skyline_July_2019.jpg/1280px-Urumqi_Skyline_July_2019.jpg"
 
   - id: kashgar
     name: 喀什老城
@@ -15,7 +15,7 @@ places:
     lng: 75.989138
     day: [2, 3, 6]
     note: 古絲路重鎮，維吾爾文化中心，KHG 機場入境
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/East_gate_of_the_Ancient_City_of_Kashi_%2820230923104429%29.jpg/330px-East_gate_of_the_Ancient_City_of_Kashi_%2820230923104429%29.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/East_gate_of_the_Ancient_City_of_Kashi_%2820230923104429%29.jpg/1280px-East_gate_of_the_Ancient_City_of_Kashi_%2820230923104429%29.jpg"
 
   - id: id_kah_mosque
     name: 艾提尕爾清真寺
@@ -24,7 +24,7 @@ places:
     lng: 75.9842
     day: [3]
     note: 中國最大清真寺，建於 1442 年
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg/330px-H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg/1280px-H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg"
 
   - id: kashgar_grand_bazaar
     name: 喀什大巴扎
@@ -33,7 +33,7 @@ places:
     lng: 75.9912
     day: [3]
     note: 中亞最大集市，週日最熱鬧
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sunday_market_Kashgar_IGP4049.jpg/1280px-Sunday_market_Kashgar_IGP4049.jpg"
 
   - id: xiangfei_tomb
     name: 香妃墓（阿帕克霍加麻札）
@@ -42,7 +42,7 @@ places:
     lng: 76.0182
     day: [3]
     note: 17 世紀和卓家族墓
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg/330px-Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg/1280px-Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg"
 
   - id: gez_checkpoint
     name: 蓋孜檢查站
@@ -60,7 +60,7 @@ places:
     lng: 75.1810
     day: [4]
     note: 海拔 3300m，沙山倒影
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%E5%B8%83%E4%BC%A6%E5%8F%A3%E6%B0%B4%E5%BA%93%28%E7%99%BD%E6%B2%99%E6%B9%96%29_-_Bulungkol_Reservoir_%28White_Sand_Lake%29_-_2015.04_-_panoramio.jpg/1280px-%E5%B8%83%E4%BC%A6%E5%8F%A3%E6%B0%B4%E5%BA%93%28%E7%99%BD%E6%B2%99%E6%B9%96%29_-_Bulungkol_Reservoir_%28White_Sand_Lake%29_-_2015.04_-_panoramio.jpg"
 
   - id: karakul_lake
     name: 卡拉庫里湖
@@ -69,7 +69,7 @@ places:
     lng: 75.0540
     day: [4]
     note: 海拔 3600m，慕士塔格峰倒影
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg/330px-Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg/1280px-Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg"
 
   - id: tashkurgan
     name: 塔什庫爾干
@@ -78,7 +78,7 @@ places:
     lng: 75.2300
     day: [4, 5]
     note: 塔吉克族自治縣，海拔 3100m
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg/330px-Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg/1280px-Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg"
 
   - id: stone_city
     name: 石頭城（公主堡遺址）
@@ -87,7 +87,7 @@ places:
     lng: 75.2350
     day: [4]
     note: 唐代朅盤陀國遺址，Day 4 傍晚日落
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stone_City%2C_Tashkurgan.JPG/1280px-Stone_City%2C_Tashkurgan.JPG"
 
   - id: jincaotan
     name: 金草灘濕地
@@ -105,7 +105,7 @@ places:
     lng: 75.4900
     day: [5]
     note: 314 國道塔縣→瓦恰段，639 個 S 形彎道，海拔 3000-4200m
-    image_url: ""
+    image_url: "https://news.cgtn.com/news/2024-02-11/Panlong-Ancient-Road-A-heavenly-highway-in-Kashgar-1r6FbRNRuqQ/img/298e76c848b845309fee2dc220382b20/298e76c848b845309fee2dc220382b20.jpeg"
 
   - id: wacha
     name: 瓦恰鄉
@@ -132,7 +132,7 @@ places:
     lng: 79.9270
     day: [7, 8]
     note: 古于闐國，玉石之鄉
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/330px-Khotan-mezquita-d04.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg"
 
   - id: yulong_river
     name: 玉龍喀什河
@@ -141,7 +141,7 @@ places:
     lng: 80.0000
     day: [7]
     note: 採玉河，每年發現和田玉
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Yurungkash_River_near_Hotan.jpg/330px-Yurungkash_River_near_Hotan.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Yurungkash_River_near_Hotan.jpg/1280px-Yurungkash_River_near_Hotan.jpg"
 
   - id: hotan_night_market
     name: 和田夜市
@@ -150,7 +150,7 @@ places:
     lng: 79.9250
     day: [7]
     note: 烤包子、烤全羊、馕坑肉
-    image_url: ""
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Khotan-mercado-d06.jpg/1280px-Khotan-mercado-d06.jpg"
 
   - id: hotan_silk
     name: 艾德萊斯絲綢工坊
@@ -168,7 +168,7 @@ places:
     lng: 81.0000
     day: [8]
     note: 全長 522 公里穿越世界第二大流動沙漠
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Taklamakan_desert.jpg/330px-Taklamakan_desert.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Taklamakan_desert.jpg/1280px-Taklamakan_desert.jpg"
 
   - id: aksu
     name: 阿克蘇
@@ -186,7 +186,7 @@ places:
     lng: 82.9620
     day: [9, 10]
     note: 古龜茲國，西域佛教重鎮
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/330px-TianShanRoad.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/1280px-TianShanRoad.jpg"
 
   - id: kizil_caves
     name: 克孜爾石窟
@@ -195,7 +195,16 @@ places:
     lng: 82.5020
     day: [9]
     note: 中國最早佛教石窟，比敦煌早 200 年
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/QizilDonors.jpg/330px-QizilDonors.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/QizilDonors.jpg/1280px-QizilDonors.jpg"
+
+  - id: duku_highway
+    name: 獨庫公路（G217）
+    type: route
+    lat: 42.5000
+    lng: 84.2000
+    day: [10, 11]
+    note: 縱貫天山，鐵力買提達坂雪山，6-10 月通車
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/G217_Duku.jpg/1280px-G217_Duku.jpg"
 
   - id: bayanbulak
     name: 巴音布魯克草原
@@ -204,7 +213,7 @@ places:
     lng: 84.1710
     day: [10, 11]
     note: 中國第二大草原，九曲十八彎日落
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bayan-Bulak-Kaidu.jpg/330px-Bayan-Bulak-Kaidu.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bayan-Bulak-Kaidu.jpg/1280px-Bayan-Bulak-Kaidu.jpg"
 
   - id: tianer_lake
     name: 天鵝湖
@@ -213,7 +222,7 @@ places:
     lng: 84.1450
     day: [10]
     note: 巴音布魯克核心景區
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bayan-Bulak-Kaidu.jpg/330px-Bayan-Bulak-Kaidu.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bayan-Bulak-Kaidu.jpg/1280px-Bayan-Bulak-Kaidu.jpg"
 
   - id: narati
     name: 那拉提大草原
@@ -222,7 +231,7 @@ places:
     lng: 84.1050
     day: [11, 12]
     note: 空中草原最美，哈薩克牧民聚居
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/330px-Nalati_Grassland_2.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg"
 
   - id: tekes
     name: 特克斯八卦城
@@ -231,7 +240,7 @@ places:
     lng: 81.8350
     day: [12]
     note: 全球唯一保留完整八卦造型的縣城，午餐+街景
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%E6%96%B0%E7%96%86-%E7%89%B9%E5%85%8B%E6%96%AF-%E5%85%AB%E5%8D%A6%E5%9F%8E-%E4%B9%8B%E4%B8%80%E5%8D%A6-%E6%88%91%E5%9C%A8%E5%9F%8E%E4%B8%AD%E5%BF%83_-_panoramio.jpg/330px-%E6%96%B0%E7%96%86-%E7%89%B9%E5%85%8B%E6%96%AF-%E5%85%AB%E5%8D%A6%E5%9F%8E-%E4%B9%8B%E4%B8%80%E5%8D%A6-%E6%88%91%E5%9C%A8%E5%9F%8E%E4%B8%AD%E5%BF%83_-_panoramio.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%E6%96%B0%E7%96%86-%E7%89%B9%E5%85%8B%E6%96%AF-%E5%85%AB%E5%8D%A6%E5%9F%8E-%E4%B9%8B%E4%B8%80%E5%8D%A6-%E6%88%91%E5%9C%A8%E5%9F%8E%E4%B8%AD%E5%BF%83_-_panoramio.jpg/1280px-%E6%96%B0%E7%96%86-%E7%89%B9%E5%85%8B%E6%96%AF-%E5%85%AB%E5%8D%A6%E5%9F%8E-%E4%B9%8B%E4%B8%80%E5%8D%A6-%E6%88%91%E5%9C%A8%E5%9F%8E%E4%B8%AD%E5%BF%83_-_panoramio.jpg"
 
   - id: yining
     name: 伊寧
@@ -249,7 +258,7 @@ places:
     lng: 81.1810
     day: [12, 13]
     note: 中亞最美高山湖泊，湖邊客棧住一晚
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg/330px-%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg/1280px-%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg"
 
   - id: guozigou
     name: 果子溝大橋
@@ -258,7 +267,7 @@ places:
     lng: 80.9110
     day: [13]
     note: G30 連霍高速最美橋段，車上拍照
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guozigou_Bridge.jpg/330px-Guozigou_Bridge.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guozigou_Bridge.jpg/1280px-Guozigou_Bridge.jpg"
 
   - id: xinjiang_museum
     name: 新疆維吾爾自治區博物館
@@ -267,7 +276,7 @@ places:
     lng: 87.5916
     day: [14]
     note: 國家一級博物館，樓蘭美女＋五星出東方錦護臂；週一閉館
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/%E6%96%B0%E7%96%86%E5%8D%9A%E7%89%A9%E9%A6%86_%E5%85%A8%E6%99%AF%EF%BC%882021%EF%BC%89.jpg/330px-%E6%96%B0%E7%96%86%E5%8D%9A%E7%89%A9%E9%A6%86_%E5%85%A8%E6%99%AF%EF%BC%882021%EF%BC%89.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/%E6%96%B0%E7%96%86%E5%8D%9A%E7%89%A9%E9%A6%86_%E5%85%A8%E6%99%AF%EF%BC%882021%EF%BC%89.jpg/1280px-%E6%96%B0%E7%96%86%E5%8D%9A%E7%89%A9%E9%A6%86_%E5%85%A8%E6%99%AF%EF%BC%882021%EF%BC%89.jpg"
 
   - id: hongshan_park
     name: 紅山公園
@@ -276,7 +285,7 @@ places:
     lng: 87.6191
     day: [14]
     note: 烏市標誌，登塔看夜景
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E7%BA%A2%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8.jpeg/330px-%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E7%BA%A2%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8.jpeg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E7%BA%A2%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8.jpeg/1280px-%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E7%BA%A2%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8.jpeg"
 
   - id: urumqi_bazaar
     name: 烏魯木齊國際大巴扎
@@ -285,7 +294,7 @@ places:
     lng: 87.6310
     day: [14]
     note: 伴手禮採買，葡萄乾巴旦木玉石
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg/330px-%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg/1280px-%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg"
 
 # 推薦住宿（兩人房單晚 RMB 參考）
 hotels:
