@@ -149,8 +149,11 @@ for p in filtered:
         day_label = f"{min(p['day'])}-{max(p['day'])}"
     amap_link = amap_marker_url(p["lat"], p["lng"], p["name"])
     nav_link = amap_navigation_url(p["lat"], p["lng"], p["name"])
+    img_url = p.get("image_url", "").strip()
+    img_html = f'<img src="{img_url}" style="width:100%;max-width:240px;border-radius:6px;margin-bottom:6px;"><br>' if img_url else ""
     popup_html = f"""
-    <div style="font-family:sans-serif;font-size:13px;min-width:200px;">
+    <div style="font-family:sans-serif;font-size:13px;min-width:200px;max-width:280px;">
+      {img_html}
       <b>{p['name']}</b><br>
       <span style="color:#666">{days_str}</span><br>
       {p.get('note', '')}<br>

@@ -21,6 +21,12 @@ d = itin["days"][day_idx]
 st.header(f"Day {d['day']} ｜ {d['date']}")
 st.subheader(f"{d['city_from']} → {d['city_to']}")
 
+# 今日封面圖：取第一個有 image_url 的景點
+_today_places = [p for p in places["places"] if d["day"] in p["day"]]
+_cover = next((p for p in _today_places if p.get("image_url", "").strip()), None)
+if _cover:
+    st.image(_cover["image_url"], caption=f"📷 {_cover['name']}", use_container_width=True)
+
 cols = st.columns(4)
 cols[0].metric("海拔", f"{d['altitude_m']} m")
 cols[1].metric("里程", f"{d['distance_km']} km")
@@ -45,13 +51,24 @@ if not today_places:
 else:
     for p in today_places:
         with st.container(border=True):
-            c1, c2 = st.columns([3, 1])
-            c1.markdown(f"**{p['name']}** ({p['type']})  \n{p.get('note', '')}")
-            c2.link_button(
-                "📍 高德 APP",
-                amap_marker_url(p["lat"], p["lng"], p["name"]),
-                use_container_width=True,
-            )
+            img = p.get("image_url", "").strip()
+            if img:
+                cols = st.columns([1, 2, 1])
+                cols[0].image(img, use_container_width=True)
+                cols[1].markdown(f"**{p['name']}** ({p['type']})  \n{p.get('note', '')}")
+                cols[2].link_button(
+                    "📍 高德 APP",
+                    amap_marker_url(p["lat"], p["lng"], p["name"]),
+                    use_container_width=True,
+                )
+            else:
+                cols = st.columns([3, 1])
+                cols[0].markdown(f"**{p['name']}** ({p['type']})  \n{p.get('note', '')}")
+                cols[1].link_button(
+                    "📍 高德 APP",
+                    amap_marker_url(p["lat"], p["lng"], p["name"]),
+                    use_container_width=True,
+                )
 
 # 推薦住宿/餐廳（根據今日城市）
 st.markdown("---")
