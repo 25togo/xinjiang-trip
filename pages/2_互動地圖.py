@@ -176,10 +176,19 @@ for p in filtered:
 st_folium(m, height=560, use_container_width=True, returned_objects=[])
 
 st.markdown("---")
-st.subheader("地點清單（含高德 APP 連結）")
+st.subheader("地點清單（按天數排，含高德 APP 連結）")
 
-for p in filtered:
+# 按 Day 順序排（min day 升冪），同天用 id 排次序
+filtered_sorted = sorted(filtered, key=lambda p: (min(p.get("day", [99])), p.get("id", "")))
+
+last_day = None
+for p in filtered_sorted:
     days_str = ", ".join(f"Day {d}" for d in p["day"])
+    first_day = min(p["day"])
+    # 不同天加分隔標題
+    if first_day != last_day:
+        st.markdown(f"#### 📅 Day {first_day}")
+        last_day = first_day
     cols = st.columns([3, 2, 2, 2])
     cols[0].markdown(f"**{p['name']}**  \n{p.get('note', '')}")
     cols[1].caption(f"{days_str} ｜ {p['type']}")
