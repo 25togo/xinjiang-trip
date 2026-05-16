@@ -154,15 +154,15 @@ days:
     distance_km: 350
     drive_hours: 5
     overnight: 維也納國際飯店（和田夜市甌越公館店）或錦江都城（和田夜市團結廣場店）
-    cover_place_id: yulong_river
+    cover_place_id: hotan_night_market
     highlights:
       - 早 9:00 莎車出發（路程較短可悠閒）
       - 沿崑崙山北麓行駛
       - 中午抵和田吃飯
-      - 下午玉龍喀什河體驗撿和田玉
-      - 和田博物館
+      - 下午和田博物館（西域古國文物）
+      - 和田老城散步
       - 晚上和田夜市（酒店步行 5 分鐘可達）
-    notes: 莎車到和田路程比葉城到和田短一點，下午有更多時間玩和田。
+    notes: 莎車到和田路程比葉城到和田短一點，下午有更多時間玩和田老城。
 
   - day: 9
     date: "2026-08-24"

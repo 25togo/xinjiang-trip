@@ -179,15 +179,6 @@ places:
     note: 古于闐國，玉石之鄉
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg"
 
-  - id: yulong_river
-    name: 玉龍喀什河（撿和田玉）
-    type: attraction
-    lat: 37.1200
-    lng: 80.0000
-    day: [8]
-    note: 採玉河，可體驗撿和田玉
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Yurungkash_River_near_Hotan.jpg/1280px-Yurungkash_River_near_Hotan.jpg"
-
   - id: hotan_museum
     name: 和田博物館
     type: attraction
