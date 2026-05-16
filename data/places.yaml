@@ -234,76 +234,31 @@ places:
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/1280px-TianShanRoad.jpg"
 
   - id: duku_highway
-    name: 獨庫公路（G217）
+    name: 獨庫公路南段（G217）
     type: route
     lat: 42.5000
     lng: 84.2000
-    day: [11, 12]
+    day: [11]
     note: 縱貫天山，鐵力買提達坂雪山，6-10 月通車
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/G217_Duku.jpg/1280px-G217_Duku.jpg"
-
-  - id: bayanbulak
-    name: 巴音布魯克草原
-    type: attraction
-    lat: 43.0290
-    lng: 84.1710
-    day: [11]
-    note: 中國第二大草原，九曲十八彎日落（必看）
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bayan-Bulak-Kaidu.jpg/1280px-Bayan-Bulak-Kaidu.jpg"
-
-  - id: tianer_lake
-    name: 天鵝湖
-    type: attraction
-    lat: 43.0850
-    lng: 84.1450
-    day: [11]
-    note: 巴音布魯克核心景區
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bayan-Bulak-Kaidu.jpg/1280px-Bayan-Bulak-Kaidu.jpg"
 
   - id: narati
     name: 那拉提大草原
     type: attraction
     lat: 43.3180
     lng: 84.1050
-    day: [12]
+    day: [11, 12]
     note: 空中草原最美，跟著哈薩克牧民放牛羊
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg"
 
-  - id: yining
-    name: 伊寧
-    type: city
-    lat: 43.9110
-    lng: 81.2980
+  - id: xiata
+    name: 夏塔（哈薩克氈房+雪山徒步）
+    type: attraction
+    lat: 42.9700
+    lng: 80.8400
     day: [12, 13]
-    note: 伊犁河谷中心；維也納喀贊其店朋友推薦
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ghulja-Yining_city_center.png/1280px-Ghulja-Yining_city_center.png"
-
-  - id: kazanqi
-    name: 喀贊其民俗村
-    type: attraction
-    lat: 43.9100
-    lng: 81.3000
-    day: [13]
-    note: 藍房子、馬車「哈迪克」穿梭巷子（朋友強推）
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ghulja-Yining_city_center.png/1280px-Ghulja-Yining_city_center.png"
-
-  - id: six_star_street
-    name: 伊寧六星街
-    type: attraction
-    lat: 43.9200
-    lng: 81.3200
-    day: [13]
-    note: 俄羅斯/塔塔爾多民族風情，六邊形放射狀街區（朋友強推）
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ghulja-Yining_city_center.png/1280px-Ghulja-Yining_city_center.png"
-
-  - id: yili_river_bridge
-    name: 伊黎河大橋
-    type: attraction
-    lat: 43.8650
-    lng: 81.3500
-    day: [13]
-    note: 日落超美（朋友推薦）
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guozigou_Bridge.jpg/1280px-Guozigou_Bridge.jpg"
+    note: 朋友強推：冰川下草原+原木建築+哈薩克家訪喝馬奶聽冬不拉+雪山徒步/騎馬
+    image_url: "https://apple-trip.com/wp-content/uploads/2025/05/v2-175edf93828116f679c144ecd3a974fc_720w.webp"
 
   - id: sayram_lake
     name: 賽里木湖
@@ -319,8 +274,8 @@ places:
     type: attraction
     lat: 44.4710
     lng: 80.9110
-    day: [14]
-    note: G30 連霍高速最美橋段，車上拍照
+    day: [13]
+    note: G30 連霍高速最美橋段（Day 13 從夏塔到賽里木湖時路過）
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guozigou_Bridge.jpg/1280px-Guozigou_Bridge.jpg"
 
   - id: hongshan_park
