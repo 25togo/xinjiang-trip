@@ -73,4 +73,4 @@ c2.metric("總車程", f"{total_drive} 小時")
 c3.metric("最高海拔", f"{max_alt} m", help=f"{max_alt_day['date']} {max_alt_day['city_to']}")
 c4.metric("跨越城市", "8")
 
-st.warning("⚠️ Day 5 紅其拉甫 4733m，當天車上備好氧氣瓶。Day 9 峽谷 06:30 + 獨庫公路全天，預計晚 7-8 點才抵那拉提，是全程最長的一天。Day 12 賽里木湖日出後從容出發，不趕班機。")
+st.warning("⚠️ Day 5 紅其拉甫 4733m，當天車上備好氧氣瓶。Day 9 峽谷 06:30 出發是全程最早的一天，下午 4 點可抵巴音布魯克。Day 12 賽里木湖日出後從容出發，不趕班機。")

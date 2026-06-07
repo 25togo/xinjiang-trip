@@ -192,8 +192,8 @@ places:
     type: route
     lat: 42.5000
     lng: 84.2000
-    day: [9]
-    note: 縱貫天山，鐵力買提達坂雪山（3817m），6-10 月通車；Day 9 全段一天走完
+    day: [9, 10]
+    note: 縱貫天山，鐵力買提達坂雪山（3817m），6-10 月通車；Day 9 南段、Day 10 北段
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/G217_Duku.jpg/1280px-G217_Duku.jpg"
 
   - id: bayinbuluoke
@@ -201,8 +201,8 @@ places:
     type: attraction
     lat: 42.8500
     lng: 83.5800
-    day: [9]
-    note: 新疆最大草原，九曲十八彎（開都河蜿蜒草原）；Day 9 路過觀景台拍照不住宿
+    day: [9, 10]
+    note: 新疆最大草原，九曲十八彎（開都河蜿蜒草原，夕陽最美）+ 天鵝湖候鳥保護區；Day 9 住宿
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bayanbulak_Grassland.jpg/1280px-Bayanbulak_Grassland.jpg"
 
   - id: narati
@@ -210,18 +210,9 @@ places:
     type: attraction
     lat: 43.3180
     lng: 84.1050
-    day: [9, 10]
-    note: 空中草原最美，跟著哈薩克牧民放牛羊（Day 9 抵，Day 10 午後離）
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg"
-
-  - id: xiata
-    name: 夏塔（哈薩克氈房+雪山徒步）
-    type: attraction
-    lat: 42.9700
-    lng: 80.8400
     day: [10, 11]
-    note: 朋友強推：冰川下草原+原木建築+哈薩克家訪喝馬奶聽冬不拉+雪山徒步/騎馬
-    image_url: "https://apple-trip.com/wp-content/uploads/2025/05/v2-175edf93828116f679c144ecd3a974fc_720w.webp"
+    note: 空中草原最美，跟著哈薩克牧民放牛羊（Day 10 抵，Day 11 午後離）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg"
 
   - id: sayram_lake
     name: 賽里木湖
@@ -229,7 +220,7 @@ places:
     lat: 44.6050
     lng: 81.1810
     day: [11, 12]
-    note: 中亞最美高山湖泊，賽湖天泉飯店湖邊住
+    note: 中亞最美高山湖泊，賽湖天泉飯店湖邊住；Day 11 抵看日落，Day 12 看日出後出發
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg/1280px-%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg"
 
   - id: guozigou
@@ -238,7 +229,7 @@ places:
     lat: 44.4710
     lng: 80.9110
     day: [11]
-    note: G30 連霍高速最美橋段（Day 11 從夏塔到賽里木湖時路過）
+    note: G30 連霍高速最美橋段（Day 11 從那拉提到賽里木湖時路過）
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guozigou_Bridge.jpg/1280px-Guozigou_Bridge.jpg"
 
   - id: urumqi_bazaar
