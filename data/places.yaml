@@ -130,10 +130,10 @@ places:
   - id: tianshan_shilin
     name: 天山石林
     type: attraction
-    lat: 42.2000
-    lng: 83.5000
+    lat: 42.8000
+    lng: 83.7000
     day: [9, 10]
-    note: 獨庫公路 G217 沿線石灰岩岩柱地貌；Day 9 住宿，注意確認當地住宿預訂
+    note: 和靜縣，獨庫公路沿線；綠色草甸+奇特石林岩柱+木屋羊群，被稱「小新西蘭」；Day 9 住宿（需提前確認住宿）
 
   - id: duku_highway
     name: 獨庫公路（G217）

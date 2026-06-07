@@ -15,21 +15,20 @@ st.caption(
     "中國地區用 OSM 磚塊（不需翻牆）。點任一地點可一鍵丟到高德地圖 APP（手機）。"
 )
 
-with st.expander("💡 為什麼這趟要『喀什進、烏魯木齊出』？", expanded=False):
+with st.expander("💡 為什麼這趟要『喀什進、伊寧出』？", expanded=False):
     st.markdown(
         """
-        **獨庫公路是線性單向**，南端在庫車、北端在獨山子（離烏市 250km）。
-        走完獨庫公路全段，車自然就到烏魯木齊那邊了。
+        **路線是一條不折返的環線**：喀什→帕米爾→南疆→沙漠公路→獨庫公路→伊犁河谷→伊寧。
 
         如果硬要回喀什：
-        - 烏市→喀什走南疆全境 1500 km，多 2 天車程
-        - 或烏市→喀什飛回去（多 RMB 1500 + 一天）
+        - 伊寧→喀什要橫穿天山 1200 km，多 2 天車程
+        - 或伊寧→喀什飛回去（多 RMB 1500 + 一天）
 
-        買 **開口票**（Multi-City：台北→喀什、烏市→台北）最順。
+        買 **開口票**（Multi-City：台北→喀什 KHG 進、伊寧 IEL→台北 出）最順。
         下面地圖：
         - **藍實線** = 實際走的路徑（不回頭）
         - **灰虛線** = 如果硬要喀什折返會多走的回頭路（白費 2 天）
-        - **紅色 ✈️** = 喀什機場（進）和烏市機場（出）
+        - **紅色 ✈️** = 喀什機場（進）和伊寧機場（出）
         """
     )
 
@@ -101,16 +100,16 @@ for d in itin["days"]:
 if len(route_pts) >= 2:
     folium.PolyLine(
         route_pts, color="#1a4d6e", weight=4, opacity=0.85,
-        tooltip="實際路線：喀什→塔縣→和田→阿克蘇→庫車→獨庫公路→烏市",
+        tooltip="實際路線：喀什→塔縣→莎車→和田→阿拉爾→庫車→獨庫公路→那拉提→伊寧",
     ).add_to(m)
 
-# 假設要喀什折返的虛線（從烏市穿沙漠回喀什 1500km）
+# 假設要喀什折返的虛線（從伊寧穿天山回喀什 1200km）
 kashgar_pt = [39.467663, 75.989138]
-urumqi_pt = [43.825592, 87.616848]
+yining_pt = [43.906000, 81.324000]
 folium.PolyLine(
-    [urumqi_pt, [42, 81], [40, 78], kashgar_pt],
+    [yining_pt, [42, 78], [40, 76], kashgar_pt],
     color="#888", weight=2, opacity=0.5, dash_array="6,10",
-    tooltip="× 假設要喀什折返會多走 1500km / 2 天車程（不推薦）",
+    tooltip="× 假設要喀什折返會多走 1200km / 2 天車程（不推薦）",
 ).add_to(m)
 
 # 機場標記（紅色✈ 圓圈）
@@ -130,15 +129,15 @@ def airport_html(label: str) -> str:
 
 folium.Marker(
     kashgar_pt,
-    popup="✈️ 喀什機場 KHG（Day 1 進）",
+    popup="✈️ 喀什機場 KHG（Day 2 進）",
     tooltip="喀什機場 KHG（進）",
     icon=folium.DivIcon(html=airport_html("KHG"), icon_size=(34, 34), icon_anchor=(17, 17)),
 ).add_to(m)
 folium.Marker(
-    urumqi_pt,
-    popup="✈️ 烏魯木齊機場 URC（Day 13 出）",
-    tooltip="烏魯木齊機場 URC（出）",
-    icon=folium.DivIcon(html=airport_html("URC"), icon_size=(34, 34), icon_anchor=(17, 17)),
+    yining_pt,
+    popup="✈️ 伊寧機場 IEL（Day 13 出，8/26 飛上海）",
+    tooltip="伊寧機場 IEL（出）",
+    icon=folium.DivIcon(html=airport_html("IEL"), icon_size=(34, 34), icon_anchor=(17, 17)),
 ).add_to(m)
 
 for p in filtered:
