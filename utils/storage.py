@@ -47,6 +47,22 @@ def delete_expense(expense_id: int) -> list:
     return expenses
 
 
+def append_budget_item(record: dict) -> list:
+    items = load_json("budget_plan.json", default=[])
+    record["id"] = len(items) + 1
+    record["created_at"] = datetime.now().isoformat(timespec="seconds")
+    items.append(record)
+    save_json("budget_plan.json", items)
+    return items
+
+
+def delete_budget_item(item_id: int) -> list:
+    items = load_json("budget_plan.json", default=[])
+    items = [e for e in items if e.get("id") != item_id]
+    save_json("budget_plan.json", items)
+    return items
+
+
 def append_ctrip(record: dict) -> list:
     items = load_json("ctrip_comparisons.json", default=[])
     record["id"] = len(items) + 1

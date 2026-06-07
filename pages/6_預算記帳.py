@@ -7,7 +7,7 @@ import pandas as pd
 from datetime import date
 from utils.data_loader import load_budget
 from utils.currency import rmb_to_twd, twd_to_rmb, fmt_twd, fmt_rmb
-from utils.storage import load_json, append_expense, delete_expense
+from utils.storage import load_json, append_expense, delete_expense, append_budget_item, delete_budget_item
 
 st.set_page_config(page_title="預算與記帳", page_icon="💰", layout="wide")
 st.title("預算與記帳")
@@ -21,27 +21,48 @@ with tab_budget:
     st.subheader("預算規劃")
     st.caption(f"匯率參考：1 RMB = {rate} TWD")
 
-    rows = []
-    total = 0
-    for c in budget["categories"]:
-        rows.append({
-            "項目": c["name"],
-            "預估 TWD": c["estimate_twd"],
-            "估 RMB": twd_to_rmb(c["estimate_twd"], rate),
-            "說明": c["detail"],
-            "省錢撇步": c.get("saving_tip", "—"),
-        })
-        total += c["estimate_twd"]
+    with st.form("add_budget", clear_on_submit=True):
+        c1, c2, c3 = st.columns(3)
+        item_name = c1.text_input("項目", placeholder="ex. 機票、住宿、包車")
+        amount_twd = c2.number_input("金額 (TWD)", min_value=0, step=1000, value=0)
+        category = c3.selectbox("類別", ["交通", "住宿", "餐飲", "門票", "採購", "雜支", "其他"])
+        note = st.text_input("備註", placeholder="ex. 兩人來回，東方航空")
+        add_btn = st.form_submit_button("➕ 新增", use_container_width=True, type="primary")
+        if add_btn and item_name and amount_twd > 0:
+            append_budget_item({
+                "name": item_name,
+                "amount_twd": amount_twd,
+                "amount_rmb": twd_to_rmb(amount_twd, rate),
+                "category": category,
+                "note": note,
+            })
+            st.toast(f"已加入「{item_name}」", icon="💾")
+            st.rerun()
 
-    df = pd.DataFrame(rows)
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.markdown("---")
+    plan_items = load_json("budget_plan.json", default=[])
 
-    c1, c2, c3 = st.columns(3)
-    c1.metric("兩人合計", fmt_twd(total))
-    c2.metric("人均", fmt_twd(total / 2))
-    c3.metric("人均 RMB", fmt_rmb(twd_to_rmb(total / 2, rate)))
+    if not plan_items:
+        st.info("還沒有項目。用上方表單新增。")
+    else:
+        total_twd = 0
+        for item in plan_items:
+            with st.container(border=True):
+                cols = st.columns([3, 2, 2, 3, 1])
+                cols[0].markdown(f"**{item['name']}**")
+                cols[1].markdown(f"NT$ {item['amount_twd']:,}")
+                cols[2].caption(f"≈ ¥{item['amount_rmb']:,.0f}")
+                cols[3].caption(item.get("note", "") or "—")
+                if cols[4].button("🗑", key=f"del_b_{item['id']}"):
+                    delete_budget_item(item["id"])
+                    st.rerun()
+            total_twd += item["amount_twd"]
 
-    st.warning(budget["totals"]["note"])
+        st.markdown("---")
+        c1, c2, c3 = st.columns(3)
+        c1.metric("兩人合計", fmt_twd(total_twd))
+        c2.metric("人均", fmt_twd(total_twd / 2))
+        c3.metric("人均 RMB", fmt_rmb(twd_to_rmb(total_twd / 2, rate)))
 
 with tab_log:
     st.subheader("即時記帳")
