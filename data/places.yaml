@@ -148,8 +148,8 @@ places:
     type: route
     lat: 37.6000
     lng: 76.0000
-    day: [6, 7]
-    note: 塔縣到莎車的古商道（朋友推薦），少人但景色原始
+    day: [6]
+    note: 塔縣到大同鄉的古商道（朋友推薦），少人但景色原始
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Muztagh_Ata_viewed_from_Karakoram_Highway.jpg/1280px-Muztagh_Ata_viewed_from_Karakoram_Highway.jpg"
 
   - id: datong_xiang
@@ -157,53 +157,17 @@ places:
     type: city
     lat: 37.6500
     lng: 76.5000
-    day: [6, 7]
-    note: 塔莎古道中段塔吉克牧民聚落，朋友推薦的家庭式民宿
+    day: [6]
+    note: 塔莎古道終點塔吉克牧民聚落，朋友推薦的家庭式民宿
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Peer_Ali.jpg/1280px-Peer_Ali.jpg"
-
-  - id: shache_palace
-    name: 莎車（葉爾羌汗王宮+阿曼尼莎汗王陵）
-    type: city
-    lat: 38.4150
-    lng: 77.2400
-    day: [7, 8]
-    note: 葉爾羌汗國（15-16 世紀）首都，認識十二木卡姆藝術歷史
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg/1280px-Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg"
-
-  - id: hotan
-    name: 和田
-    type: city
-    lat: 37.1100
-    lng: 79.9270
-    day: [8]
-    note: 古于闐國，玉石之鄉
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg"
-
-  - id: hotan_museum
-    name: 和田博物館
-    type: attraction
-    lat: 37.1095
-    lng: 79.9290
-    day: [8]
-    note: 西域古國文物，朋友推薦
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg"
-
-  - id: hotan_night_market
-    name: 和田夜市
-    type: food
-    lat: 37.1110
-    lng: 79.9250
-    day: [8]
-    note: 烤包子、烤全羊、馕坑肉；酒店步行 5 分鐘可達
-    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Khotan-mercado-d06.jpg/1280px-Khotan-mercado-d06.jpg"
 
   - id: kuqa_canyon
     name: 天山神秘大峽谷
     type: attraction
     lat: 41.9200
     lng: 83.2700
-    day: [10]
-    note: 紅色丹霞地貌，峽谷步行 3.7km，下午光線最佳（朋友推薦）
+    day: [8]
+    note: 紅色丹霞地貌，峽谷步行 3.7km，早起 6:30 進去光線最柔和
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/1280px-TianShanRoad.jpg"
 
   - id: kuqa
@@ -211,8 +175,8 @@ places:
     type: city
     lat: 41.7170
     lng: 82.9620
-    day: [9, 10]
-    note: 古龜茲國；Day 9 抵住太古裡夜市旁，Day 10 早起走獨庫公路
+    day: [7, 8]
+    note: 古龜茲國；Day 7 抵住太古裡夜市旁，Day 8 逛大峽谷＋克孜爾千佛洞
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/1280px-TianShanRoad.jpg"
 
   - id: duku_highway
@@ -220,9 +184,18 @@ places:
     type: route
     lat: 42.5000
     lng: 84.2000
-    day: [10]
-    note: 縱貫天山，鐵力買提達坂雪山，6-10 月通車
+    day: [9]
+    note: 縱貫天山，鐵力買提達坂雪山（3817m），6-10 月通車
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/G217_Duku.jpg/1280px-G217_Duku.jpg"
+
+  - id: bayinbuluoke
+    name: 巴音布魯克大草原
+    type: attraction
+    lat: 42.8500
+    lng: 83.5800
+    day: [9, 10]
+    note: 新疆最大草原，九曲十八彎（開都河蜿蜒草原，夕陽最美）+ 天鵝湖候鳥保護區
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bayanbulak_Grassland.jpg/1280px-Bayanbulak_Grassland.jpg"
 
   - id: narati
     name: 那拉提大草原
@@ -230,7 +203,7 @@ places:
     lat: 43.3180
     lng: 84.1050
     day: [10, 11]
-    note: 空中草原最美，跟著哈薩克牧民放牛羊
+    note: 空中草原最美，跟著哈薩克牧民放牛羊（Day 10 抵，Day 11 午後離）
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg"
 
   - id: xiata
