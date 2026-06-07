@@ -9,22 +9,22 @@ categories:
     detail: 兩人來回，台北→廣州/上海→烏魯木齊；8 月旺季
     saving_tip: 6 月底前訂可省 1-2 萬
 
-  - name: 包車（15 天）
-    estimate_twd: 70000
+  - name: 包車（14 天）
+    estimate_twd: 67000
     per_person: false
-    detail: RMB 1100/天 × 15 天 = 16500 RMB
+    detail: RMB 1100/天 × 14 天 = 15400 RMB
     saving_tip: 找師傅一手價可砍到 RMB 900/天
 
   - name: 住宿
-    estimate_twd: 26000
+    estimate_twd: 24000
     per_person: false
-    detail: 13 晚 × RMB 460/晚平均 = 6000 RMB
+    detail: 12 晚 × RMB 460/晚平均 = 5500 RMB
     saving_tip: 用攜程/飛豬訂可省 10-15%
 
   - name: 飲食
-    estimate_twd: 26000
+    estimate_twd: 24000
     per_person: false
-    detail: 兩人 15 天 × RMB 200/人/天 = 6000 RMB
+    detail: 兩人 14 天 × RMB 200/人/天 = 5600 RMB
     saving_tip: 中午吃當地小館可省一半
 
   - name: 門票/景區
@@ -48,7 +48,7 @@ categories:
   - name: 通訊/eSIM
     estimate_twd: 1500
     per_person: false
-    detail: 兩人各 1 張 15 天 eSIM
+    detail: 兩人各 1 張 14 天 eSIM
     saving_tip: 台灣門號開漫遊吃到飽月租計算未必划算
 
   - name: 機場接送/雜支
@@ -64,7 +64,7 @@ categories:
     saving_tip: 大巴扎要殺價
 
 totals:
-  combined_twd: 200700
-  per_person_twd: 100350
-  combined_rmb: 46000
+  combined_twd: 193700
+  per_person_twd: 96850
+  combined_rmb: 44000
   note: 對應「5-7 萬人均」會超出。要省的話砍住宿(改連鎖)+機票早訂可降到 7-8 萬人均。

@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 st.set_page_config(
-    page_title="2026 南疆 15 天行程",
+    page_title="2026 南疆 14 天行程",
     page_icon="🏔️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -23,13 +23,13 @@ start_date = _sd if isinstance(_sd, date) else date.fromisoformat(_sd)
 today = date.today()
 days_to_go = (start_date - today).days
 
-st.title("🏔️ 2026 南疆 15 天行程")
+st.title("🏔️ 2026 南疆 14 天行程")
 st.caption(f"{trip['route_type']} ｜ 兩人 ｜ {trip['vehicle']}")
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("出發日", trip["start_date"])
 c2.metric("距出發", f"{days_to_go} 天")
-c3.metric("總天數", "15")
+c3.metric("總天數", "14")
 c4.metric("路線", "經典大環＋獨庫")
 
 st.markdown("---")
@@ -37,7 +37,7 @@ st.subheader("快速導覽")
 
 cols = st.columns(3)
 nav = [
-    ("📅 行程總覽", "從喀什到塔縣（含盤龍古道）、和田、庫車、獨庫公路 15 天"),
+    ("📅 行程總覽", "從喀什到塔縣（含盤龍古道）、和田、庫車、獨庫公路 14 天"),
     ("🗺️ 互動地圖", "所有景點/住宿一鍵丟到高德 APP"),
     ("📍 每日詳情", "每天的時程、餐廳、住宿、注意事項"),
     ("📋 證件倒數", "台胞證、邊防證、保險，含申辦倒數"),
