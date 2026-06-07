@@ -1,405 +1,369 @@
 places:
-- id: shanghai
-  name: 上海（PVG 轉機，浦東亞朶酒店）
-  type: city
-  lat: 31.1443
-  lng: 121.8083
-  day:
-  - 1
-  - 2
-  note: Day 1 過夜亞朶酒店（朋友推薦），Day 2 早 7:05 飛喀什
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg/1280px-Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg
-- id: kashgar
-  name: 喀什古城
-  type: city
-  lat: 39.467663
-  lng: 75.989138
-  day:
-  - 2
-  - 3
-  note: 古絲路重鎮，維吾爾文化中心，10am 有古城開城儀式
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Kashgar_old_city_IGP3776.jpg/1280px-Kashgar_old_city_IGP3776.jpg
-- id: id_kah_mosque
-  name: 艾提尕爾清真寺
-  type: attraction
-  lat: 39.472
-  lng: 75.9842
-  day:
-  - 2
-  - 3
-  note: 中國最大清真寺，建於 1442 年；廣場曬太陽看當地人聊天
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg/1280px-H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg
-- id: kashgar_old_tea_house
-  name: 百年老茶館
-  type: food
-  lat: 39.4718
-  lng: 75.9852
-  day:
-  - 2
-  note: 艾提尕爾旁，下午有都塔爾/彈布林演奏，當地人會跟著音樂跳舞
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg/1280px-H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg
-- id: xiangfei_garden
-  name: 香妃園（含十二木卡姆表演）
-  type: attraction
-  lat: 39.488
-  lng: 76.0182
-  day:
-  - 3
-  note: 17 世紀和卓家族墓+下午十二木卡姆歌舞表演（朋友強推）
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg/1280px-Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg
-- id: kashgar_grand_bazaar
-  name: 喀什大巴扎
-  type: bazaar
-  lat: 39.471
-  lng: 75.9912
-  day:
-  - 3
-  note: 中亞最大集市，週日最熱鬧
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sunday_market_Kashgar_IGP4049.jpg/1280px-Sunday_market_Kashgar_IGP4049.jpg
-- id: gez_checkpoint
-  name: 蓋孜檢查站
-  type: checkpoint
-  lat: 38.67
-  lng: 75.55
-  day:
-  - 4
-  note: 出示邊防證、台胞證；蘇巴什服務區可吃飯休息
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Muztagh_Ata_viewed_from_Karakoram_Highway.jpg/1280px-Muztagh_Ata_viewed_from_Karakoram_Highway.jpg
-- id: baisha_lake
-  name: 白沙湖＋白沙山
-  type: attraction
-  lat: 38.385
-  lng: 75.181
-  day:
-  - 4
-  note: 海拔 3300m，沙山倒影
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%E5%B8%83%E4%BC%A6%E5%8F%A3%E6%B0%B4%E5%BA%93%28%E7%99%BD%E6%B2%99%E6%B9%96%29_-_Bulungkol_Reservoir_%28White_Sand_Lake%29_-_2015.04_-_panoramio.jpg/1280px-%E5%B8%83%E4%BC%A6%E5%8F%A3%E6%B0%B4%E5%BA%93%28%E7%99%BD%E6%B2%99%E6%B9%96%29_-_Bulungkol_Reservoir_%28White_Sand_Lake%29_-_2015.04_-_panoramio.jpg
-- id: karakul_lake
-  name: 卡拉庫里湖
-  type: attraction
-  lat: 38.45
-  lng: 75.054
-  day:
-  - 4
-  note: 海拔 3600m，慕士塔格峰倒影
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg/1280px-Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg
-- id: tahheman_wetland
-  name: 塔合曼濕地
-  type: attraction
-  lat: 37.81
-  lng: 75.14
-  day:
-  - 4
-  note: 塔縣前的高原濕地，雪山+草原+塔吉克民居（朋友推薦）
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Muztagh_Ata_Xinjiang_China.jpg/1280px-Muztagh_Ata_Xinjiang_China.jpg
-- id: tashkurgan
-  name: 塔什庫爾干（托葛籣夏村）
-  type: city
-  lat: 37.778
-  lng: 75.23
-  day:
-  - 4
-  - 5
-  note: 塔吉克族自治縣，海拔 3100m；茗源民宿在托葛籣夏村；住 2 晚（抵達+適應高度）
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg/1280px-Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg
-- id: tajik_eagle_dance
-  name: 塔吉克鷹舞表演
-  type: attraction
-  lat: 37.777
-  lng: 75.231
-  day:
-  - 5
-  note: 塔吉克族非物質文化遺產，縣城內可看（朋友推薦）
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg/1280px-Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg
-- id: stone_city
-  name: 石頭城（公主堡遺址）
-  type: attraction
-  lat: 37.792
-  lng: 75.235
-  day:
-  - 5
-  note: 唐代朅盤陀國遺址，Day 5 傍晚日落
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stone_City%2C_Tashkurgan.JPG/1280px-Stone_City%2C_Tashkurgan.JPG
-- id: jincaotan
-  name: 金草灘濕地
-  type: attraction
-  lat: 37.79
-  lng: 75.24
-  day:
-  - 5
-  note: 塔縣旁草原濕地，傍晚光線最美
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg/1280px-Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg
-- id: panlong
-  name: 盤龍古道
-  type: attraction
-  lat: 37.43
-  lng: 75.49
-  day:
-  - 6
-  note: 314 國道塔縣→瓦恰段，639 個 S 形彎道，海拔 3000-4200m
-  image_url: https://news.cgtn.com/news/2024-02-11/Panlong-Ancient-Road-A-heavenly-highway-in-Kashgar-1r6FbRNRuqQ/img/298e76c848b845309fee2dc220382b20/298e76c848b845309fee2dc220382b20.jpeg
-- id: wacha
-  name: 瓦恰鄉
-  type: attraction
-  lat: 37.5
-  lng: 75.78
-  day:
-  - 6
-  note: 盤龍古道終點塔吉克族村莊，午餐點
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Peer_Ali.jpg/1280px-Peer_Ali.jpg
-- id: tasha_road
-  name: 塔莎古道
-  type: route
-  lat: 37.6
-  lng: 76.0
-  day:
-  - 6
-  - 7
-  note: 塔縣到莎車的古商道（朋友推薦），少人但景色原始
-  image_url: https://www.xinjiang888.com/archive/image/article2/xinjiang__1_.png
-- id: datong_xiang
-  name: 大同鄉（君宜牧家樂）
-  type: city
-  lat: 37.65
-  lng: 76.5
-  day:
-  - 6
-  - 7
-  note: 塔莎古道中段塔吉克牧民聚落，朋友推薦的家庭式民宿
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Peer_Ali.jpg/1280px-Peer_Ali.jpg
-- id: shache_palace
-  name: 莎車（葉爾羌汗王宮+阿曼尼莎汗王陵）
-  type: city
-  lat: 38.415
-  lng: 77.24
-  day:
-  - 7
-  - 8
-  note: 葉爾羌汗國（15-16 世紀）首都，認識十二木卡姆藝術歷史
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg/1280px-Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg
-- id: hotan
-  name: 和田
-  type: city
-  lat: 37.11
-  lng: 79.927
-  day:
-  - 8
-  note: 古于闐國，玉石之鄉
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg
-- id: hotan_museum
-  name: 和田博物館
-  type: attraction
-  lat: 37.1095
-  lng: 79.929
-  day:
-  - 8
-  note: 西域古國文物，朋友推薦
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg
-- id: hotan_night_market
-  name: 和田夜市
-  type: food
-  lat: 37.111
-  lng: 79.925
-  day:
-  - 8
-  note: 烤包子、烤全羊、馕坑肉；酒店步行 5 分鐘可達
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Khotan-mercado-d06.jpg/1280px-Khotan-mercado-d06.jpg
-- id: tarim_highway
-  name: G580 沙漠公路
-  type: route
-  lat: 39.5
-  lng: 80.7
-  day:
-  - 9
-  note: 和田→阿拉爾 560km，比 G217 更深入沙漠（朋友推薦）；今天坐車當休息
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Taklamakan_desert.jpg/1280px-Taklamakan_desert.jpg
-- id: alaer
-  name: 阿拉爾
-  type: city
-  lat: 40.5479
-  lng: 81.2787
-  day:
-  - 9
-  - 10
-  note: 塔里木河畔城市，G580 沙漠公路東出口
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Taklamakan_desert.jpg/1280px-Taklamakan_desert.jpg
-- id: kuqa_canyon
-  name: 天山神秘大峽谷
-  type: attraction
-  lat: 41.92
-  lng: 83.27
-  day:
-  - 10
-  note: 紅色丹霞地貌，峽谷步行 3.7km，下午光線最佳（朋友推薦）
-  image_url: https://www.xinjiang888.com/archive/image/uploads/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200301145619-(1)-g9697.jpg
-- id: kuqa
-  name: 庫車（龜茲）
-  type: city
-  lat: 41.717
-  lng: 82.962
-  day:
-  - 10
-  note: 古龜茲國；住太古裡夜市旁
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/1280px-TianShanRoad.jpg
-- id: duku_highway
-  name: 獨庫公路南段（G217）
-  type: route
-  lat: 42.5
-  lng: 84.2
-  day:
-  - 11
-  note: 縱貫天山，鐵力買提達坂雪山，6-10 月通車
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/G217_Duku.jpg/1280px-G217_Duku.jpg
-- id: narati
-  name: 那拉提大草原
-  type: attraction
-  lat: 43.318
-  lng: 84.105
-  day:
-  - 11
-  - 12
-  note: 空中草原最美，跟著哈薩克牧民放牛羊
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg
-- id: xiata
-  name: 夏塔（哈薩克氈房+雪山徒步）
-  type: attraction
-  lat: 42.97
-  lng: 80.84
-  day:
-  - 12
-  - 13
-  note: 朋友強推：冰川下草原+原木建築+哈薩克家訪喝馬奶聽冬不拉+雪山徒步/騎馬
-  image_url: https://apple-trip.com/wp-content/uploads/2025/05/%E5%A4%8F%E5%A1%94.jpg
-- id: sayram_lake
-  name: 賽里木湖
-  type: attraction
-  lat: 44.605
-  lng: 81.181
-  day:
-  - 13
-  - 14
-  note: 中亞最美高山湖泊，賽湖天泉飯店湖邊住
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg/1280px-%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg
-- id: guozigou
-  name: 果子溝大橋
-  type: attraction
-  lat: 44.471
-  lng: 80.911
-  day:
-  - 13
-  note: G30 連霍高速最美橋段（Day 13 從夏塔到賽里木湖時路過）
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guozigou_Bridge.jpg/1280px-Guozigou_Bridge.jpg
-- id: hongshan_park
-  name: 紅山公園
-  type: attraction
-  lat: 43.7972
-  lng: 87.6191
-  day:
-  - 14
-  note: 烏市標誌，登塔看夜景
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E7%BA%A2%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8.jpeg/1280px-%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E7%BA%A2%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%A4%A7%E9%97%A8.jpeg
-- id: urumqi_bazaar
-  name: 烏魯木齊國際大巴扎
-  type: bazaar
-  lat: 43.779
-  lng: 87.631
-  day:
-  - 14
-  note: 伴手禮採買，葡萄乾巴旦木玉石
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg/1280px-%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg
-- id: urumqi
-  name: 烏魯木齊
-  type: city
-  lat: 43.825592
-  lng: 87.616848
-  day:
-  - 14
-  - 15
-  note: 新疆首府，URC 機場出境
-  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Urumqi_Skyline_July_2019.jpg/1280px-Urumqi_Skyline_July_2019.jpg
+  - id: shanghai
+    name: 上海（PVG 轉機，浦東亞朶酒店）
+    type: city
+    lat: 31.1443
+    lng: 121.8083
+    day: [1, 2]
+    note: Day 1 過夜亞朶酒店（朋友推薦），Day 2 早 7:05 飛喀什
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg/1280px-Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_%2841199899084%29.jpg"
+
+  - id: kashgar
+    name: 喀什古城
+    type: city
+    lat: 39.467663
+    lng: 75.989138
+    day: [2, 3]
+    note: 古絲路重鎮，維吾爾文化中心，10am 有古城開城儀式
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Kashgar_old_city_IGP3776.jpg/1280px-Kashgar_old_city_IGP3776.jpg"
+
+  - id: id_kah_mosque
+    name: 艾提尕爾清真寺
+    type: attraction
+    lat: 39.4720
+    lng: 75.9842
+    day: [2, 3]
+    note: 中國最大清真寺，建於 1442 年；廣場曬太陽看當地人聊天
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg/1280px-H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg"
+
+  - id: kashgar_old_tea_house
+    name: 百年老茶館
+    type: food
+    lat: 39.4718
+    lng: 75.9852
+    day: [2]
+    note: 艾提尕爾旁，下午有都塔爾/彈布林演奏，當地人會跟著音樂跳舞
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg/1280px-H%C3%ABytgah_Mosque%2C_Kashi_%2820230923100109%29.jpg"
+
+  - id: xiangfei_garden
+    name: 香妃園（含十二木卡姆表演）
+    type: attraction
+    lat: 39.4880
+    lng: 76.0182
+    day: [3]
+    note: 17 世紀和卓家族墓+下午十二木卡姆歌舞表演（朋友強推）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg/1280px-Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg"
+
+  - id: kashgar_grand_bazaar
+    name: 喀什大巴扎
+    type: bazaar
+    lat: 39.4710
+    lng: 75.9912
+    day: [3]
+    note: 中亞最大集市，週日最熱鬧
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sunday_market_Kashgar_IGP4049.jpg/1280px-Sunday_market_Kashgar_IGP4049.jpg"
+
+  - id: gez_checkpoint
+    name: 蓋孜檢查站
+    type: checkpoint
+    lat: 38.6700
+    lng: 75.5500
+    day: [4]
+    note: 出示邊防證、台胞證；蘇巴什服務區可吃飯休息
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Muztagh_Ata_viewed_from_Karakoram_Highway.jpg/1280px-Muztagh_Ata_viewed_from_Karakoram_Highway.jpg"
+
+  - id: baisha_lake
+    name: 白沙湖＋白沙山
+    type: attraction
+    lat: 38.3850
+    lng: 75.1810
+    day: [4]
+    note: 海拔 3300m，沙山倒影
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%E5%B8%83%E4%BC%A6%E5%8F%A3%E6%B0%B4%E5%BA%93%28%E7%99%BD%E6%B2%99%E6%B9%96%29_-_Bulungkol_Reservoir_%28White_Sand_Lake%29_-_2015.04_-_panoramio.jpg/1280px-%E5%B8%83%E4%BC%A6%E5%8F%A3%E6%B0%B4%E5%BA%93%28%E7%99%BD%E6%B2%99%E6%B9%96%29_-_Bulungkol_Reservoir_%28White_Sand_Lake%29_-_2015.04_-_panoramio.jpg"
+
+  - id: karakul_lake
+    name: 卡拉庫里湖
+    type: attraction
+    lat: 38.4500
+    lng: 75.0540
+    day: [4]
+    note: 海拔 3600m，慕士塔格峰倒影
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg/1280px-Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg"
+
+  - id: tahheman_wetland
+    name: 塔合曼濕地
+    type: attraction
+    lat: 37.8100
+    lng: 75.1400
+    day: [4]
+    note: 塔縣前的高原濕地，雪山+草原+塔吉克民居（朋友推薦）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Muztagh_Ata_Xinjiang_China.jpg/1280px-Muztagh_Ata_Xinjiang_China.jpg"
+
+  - id: tashkurgan
+    name: 塔什庫爾干（托葛籣夏村）
+    type: city
+    lat: 37.7780
+    lng: 75.2300
+    day: [4, 5]
+    note: 塔吉克族自治縣，海拔 3100m；茗源民宿在托葛籣夏村；住 2 晚（抵達+適應高度）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg/1280px-Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg"
+
+  - id: tajik_eagle_dance
+    name: 塔吉克鷹舞表演
+    type: attraction
+    lat: 37.7770
+    lng: 75.2310
+    day: [5]
+    note: 塔吉克族非物質文化遺產，縣城內可看（朋友推薦）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg/1280px-Welcome_to_Tashkurgan_Tajik_Autonomous_County.jpg"
+
+  - id: stone_city
+    name: 石頭城（公主堡遺址）
+    type: attraction
+    lat: 37.7920
+    lng: 75.2350
+    day: [5]
+    note: 唐代朅盤陀國遺址，Day 5 傍晚日落
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stone_City%2C_Tashkurgan.JPG/1280px-Stone_City%2C_Tashkurgan.JPG"
+
+  - id: jincaotan
+    name: 金草灘濕地
+    type: attraction
+    lat: 37.7900
+    lng: 75.2400
+    day: [5]
+    note: 塔縣旁草原濕地，傍晚光線最美
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg/1280px-Mt_Kongur_Lake_Karakul_Xinjiang_China.jpg"
+
+  - id: panlong
+    name: 盤龍古道
+    type: attraction
+    lat: 37.4300
+    lng: 75.4900
+    day: [6]
+    note: 314 國道塔縣→瓦恰段，639 個 S 形彎道，海拔 3000-4200m
+    image_url: "https://news.cgtn.com/news/2024-02-11/Panlong-Ancient-Road-A-heavenly-highway-in-Kashgar-1r6FbRNRuqQ/img/298e76c848b845309fee2dc220382b20/298e76c848b845309fee2dc220382b20.jpeg"
+
+  - id: wacha
+    name: 瓦恰鄉
+    type: attraction
+    lat: 37.5000
+    lng: 75.7800
+    day: [6]
+    note: 盤龍古道終點塔吉克族村莊，午餐點
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Peer_Ali.jpg/1280px-Peer_Ali.jpg"
+
+  - id: tasha_road
+    name: 塔莎古道
+    type: route
+    lat: 37.6000
+    lng: 76.0000
+    day: [6, 7]
+    note: 塔縣到莎車的古商道（朋友推薦），少人但景色原始
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Muztagh_Ata_viewed_from_Karakoram_Highway.jpg/1280px-Muztagh_Ata_viewed_from_Karakoram_Highway.jpg"
+
+  - id: datong_xiang
+    name: 大同鄉（君宜牧家樂）
+    type: city
+    lat: 37.6500
+    lng: 76.5000
+    day: [6, 7]
+    note: 塔莎古道中段塔吉克牧民聚落，朋友推薦的家庭式民宿
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Peer_Ali.jpg/1280px-Peer_Ali.jpg"
+
+  - id: shache_palace
+    name: 莎車（葉爾羌汗王宮+阿曼尼莎汗王陵）
+    type: city
+    lat: 38.4150
+    lng: 77.2400
+    day: [7, 8]
+    note: 葉爾羌汗國（15-16 世紀）首都，認識十二木卡姆藝術歷史
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg/1280px-Afaq_Khoja_Mausoleum_%282017%2C_crop%29.jpg"
+
+  - id: hotan
+    name: 和田
+    type: city
+    lat: 37.1100
+    lng: 79.9270
+    day: [8]
+    note: 古于闐國，玉石之鄉
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg"
+
+  - id: hotan_museum
+    name: 和田博物館
+    type: attraction
+    lat: 37.1095
+    lng: 79.9290
+    day: [8]
+    note: 西域古國文物，朋友推薦
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Khotan-mezquita-d04.jpg/1280px-Khotan-mezquita-d04.jpg"
+
+  - id: hotan_night_market
+    name: 和田夜市
+    type: food
+    lat: 37.1110
+    lng: 79.9250
+    day: [8]
+    note: 烤包子、烤全羊、馕坑肉；酒店步行 5 分鐘可達
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Khotan-mercado-d06.jpg/1280px-Khotan-mercado-d06.jpg"
+
+  - id: kuqa_canyon
+    name: 天山神秘大峽谷
+    type: attraction
+    lat: 41.9200
+    lng: 83.2700
+    day: [10]
+    note: 紅色丹霞地貌，峽谷步行 3.7km，下午光線最佳（朋友推薦）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/1280px-TianShanRoad.jpg"
+
+  - id: kuqa
+    name: 庫車（龜茲）
+    type: city
+    lat: 41.7170
+    lng: 82.9620
+    day: [9, 10]
+    note: 古龜茲國；Day 9 抵住太古裡夜市旁，Day 10 早起走獨庫公路
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TianShanRoad.jpg/1280px-TianShanRoad.jpg"
+
+  - id: duku_highway
+    name: 獨庫公路南段（G217）
+    type: route
+    lat: 42.5000
+    lng: 84.2000
+    day: [10]
+    note: 縱貫天山，鐵力買提達坂雪山，6-10 月通車
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/G217_Duku.jpg/1280px-G217_Duku.jpg"
+
+  - id: narati
+    name: 那拉提大草原
+    type: attraction
+    lat: 43.3180
+    lng: 84.1050
+    day: [10, 11]
+    note: 空中草原最美，跟著哈薩克牧民放牛羊
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nalati_Grassland_2.jpg/1280px-Nalati_Grassland_2.jpg"
+
+  - id: xiata
+    name: 夏塔（哈薩克氈房+雪山徒步）
+    type: attraction
+    lat: 42.9700
+    lng: 80.8400
+    day: [11, 12]
+    note: 朋友強推：冰川下草原+原木建築+哈薩克家訪喝馬奶聽冬不拉+雪山徒步/騎馬
+    image_url: "https://apple-trip.com/wp-content/uploads/2025/05/v2-175edf93828116f679c144ecd3a974fc_720w.webp"
+
+  - id: sayram_lake
+    name: 賽里木湖
+    type: attraction
+    lat: 44.6050
+    lng: 81.1810
+    day: [12, 13]
+    note: 中亞最美高山湖泊，賽湖天泉飯店湖邊住
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg/1280px-%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg"
+
+  - id: guozigou
+    name: 果子溝大橋
+    type: attraction
+    lat: 44.4710
+    lng: 80.9110
+    day: [12]
+    note: G30 連霍高速最美橋段（Day 12 從夏塔到賽里木湖時路過）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Guozigou_Bridge.jpg/1280px-Guozigou_Bridge.jpg"
+
+  - id: urumqi_bazaar
+    name: 烏魯木齊國際大巴扎
+    type: bazaar
+    lat: 43.7790
+    lng: 87.6310
+    day: [13]
+    note: 伴手禮採買，葡萄乾巴旦木玉石（Day 13 抵烏市後逛 2h）
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg/1280px-%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E.jpg"
+
+  - id: urumqi
+    name: 烏魯木齊
+    type: city
+    lat: 43.825592
+    lng: 87.616848
+    day: [13]
+    note: 新疆首府，Day 13 抵烏市逛大巴扎後搭 20:20 MU8370 出境
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Urumqi_Skyline_July_2019.jpg/1280px-Urumqi_Skyline_July_2019.jpg"
+
+# 推薦住宿（兩人房單晚 RMB 參考，朋友推薦的優先）
 hotels:
-- city: 上海 PVG 機場
-  name: 上海浦東亞朶酒店（朋友推薦）
-  price_rmb: 500-700
-  note: Day 1 過夜，PVG 機場 5 分鐘車程
-- city: 喀什
-  name: 知有·疆南 或 尋疆別苑民宿（喀什古城景區，朋友推薦）
-  price_rmb: 500-800
-  note: 古城內民宿沉浸體驗
-- city: 塔什庫爾干
-  name: 茗源民宿（托葛籣夏村，朋友推薦）
-  price_rmb: 400-600
-  note: 塔吉克族村內，能看當地婚禮/歌舞表演；住 3 晚
-- city: 葉城
-  name: 葉城賓館
-  price_rmb: 300-400
-  note: 選擇少，連鎖商旅優先
-- city: 和田
-  name: 維也納國際飯店（夜市甌越公館店）或 錦江都城（夜市團結廣場店）
-  price_rmb: 400-600
-  note: 步行 5 分鐘到夜市（朋友推薦）
-- city: 阿拉爾
-  name: 阿拉爾萬達美華飯店（塔里木大學店，朋友推薦）
-  price_rmb: 400-500
-  note: G580 沙漠公路東出口
-- city: 庫車
-  name: 蘭歐·尚品飯店（太古裡夜市店，朋友推薦）
-  price_rmb: 350-500
-  note: 走路就能逛夜市
-- city: 巴音布魯克
-  name: 天鵝湖賓館 / 牧民氈房
-  price_rmb: 400-800
-  note: 氈房是體驗重點
-- city: 伊寧
-  name: 維也納飯店（伊寧喀贊其店，朋友推薦）
-  price_rmb: 400-600
-  note: 步行可達喀贊其民俗村
-- city: 賽里木湖
-  name: 賽湖天泉飯店（賽里木湖景區店，朋友推薦）
-  price_rmb: 500-800
-  note: 湖邊住一晚是這趟亮點
-- city: 烏魯木齊（機場）
-  name: 機場 Holiday Inn / 維景機場酒店
-  price_rmb: 500-700
-  note: Day 14 晚住，Day 15 早 06:30 機場 check-in
+  - city: 上海 PVG 機場
+    name: 上海浦東亞朶酒店（朋友推薦）
+    price_rmb: 500-700
+    note: Day 1 過夜，PVG 機場 5 分鐘車程
+  - city: 喀什
+    name: 知有·疆南 或 尋疆別苑民宿（喀什古城景區，朋友推薦）
+    price_rmb: 500-800
+    note: 古城內民宿沉浸體驗
+  - city: 塔什庫爾干
+    name: 茗源民宿（托葛籣夏村，朋友推薦）
+    price_rmb: 400-600
+    note: 塔吉克族村內，能看當地婚禮/歌舞表演；住 3 晚
+  - city: 葉城
+    name: 葉城賓館
+    price_rmb: 300-400
+    note: 選擇少，連鎖商旅優先
+  - city: 和田
+    name: 維也納國際飯店（夜市甌越公館店）或 錦江都城（夜市團結廣場店）
+    price_rmb: 400-600
+    note: 步行 5 分鐘到夜市（朋友推薦）
+  - city: 阿拉爾
+    name: 阿拉爾萬達美華飯店（塔里木大學店，朋友推薦）
+    price_rmb: 400-500
+    note: G580 沙漠公路東出口
+  - city: 庫車
+    name: 蘭歐·尚品飯店（太古裡夜市店，朋友推薦）
+    price_rmb: 350-500
+    note: 走路就能逛夜市
+  - city: 巴音布魯克
+    name: 天鵝湖賓館 / 牧民氈房
+    price_rmb: 400-800
+    note: 氈房是體驗重點
+  - city: 伊寧
+    name: 維也納飯店（伊寧喀贊其店，朋友推薦）
+    price_rmb: 400-600
+    note: 步行可達喀贊其民俗村
+  - city: 賽里木湖
+    name: 賽湖天泉飯店（賽里木湖景區店，朋友推薦）
+    price_rmb: 500-800
+    note: 湖邊住一晚是這趟亮點
+  - city: 烏魯木齊（機場）
+    name: 機場 Holiday Inn / 維景機場酒店
+    price_rmb: 500-700
+    note: Day 14 晚住，Day 15 早 06:30 機場 check-in
+
+# 推薦餐廳
 restaurants:
-- city: 喀什
-  name: 百年老茶館（艾提尕爾旁）
-  type: 茶館
-  note: 老維吾爾人聚集地，配饟和奶茶，下午有樂器演奏
-- city: 喀什
-  name: 騎士大觀園（朋友推薦）
-  type: 維吾爾菜
-  note: 二樓吃飯，看一樓維吾爾族新人結婚
-- city: 喀什
-  name: 古城烤鴿子＋手抓飯＋鴿子面
-  type: 在地小吃
-  note: 香妃園附近
-- city: 塔什庫爾干
-  name: 塔吉克族家訪餐
-  type: 塔吉克菜
-  note: 民宿安排家庭式手抓飯
-- city: 瓦恰鄉
-  name: 瓦恰鄉小館
-  type: 塔吉克菜
-  note: 盤龍古道午餐
-- city: 和田
-  name: 和田夜市
-  type: 夜市
-  note: 烤包子、馕坑肉、烤全羊
-- city: 庫車
-  name: 庫車大馕店
-  type: 主食
-  note: 直徑 1 米的大馕地標
-- city: 庫車
-  name: 太古裡夜市
-  type: 夜市
-  note: 朋友推薦
-- city: 伊寧
-  name: 烤包子＋手抓飯＋霜淇淋
-  type: 在地小吃
-  note: 六星街附近
-- city: 烏魯木齊
-  name: 國際大巴扎美食街
-  type: 綜合
-  note: Day 14 晚餐，各民族風味
+  - city: 喀什
+    name: 百年老茶館（艾提尕爾旁）
+    type: 茶館
+    note: 老維吾爾人聚集地，配饟和奶茶，下午有樂器演奏
+  - city: 喀什
+    name: 騎士大觀園（朋友推薦）
+    type: 維吾爾菜
+    note: 二樓吃飯，看一樓維吾爾族新人結婚
+  - city: 喀什
+    name: 古城烤鴿子＋手抓飯＋鴿子面
+    type: 在地小吃
+    note: 香妃園附近
+  - city: 塔什庫爾干
+    name: 塔吉克族家訪餐
+    type: 塔吉克菜
+    note: 民宿安排家庭式手抓飯
+  - city: 瓦恰鄉
+    name: 瓦恰鄉小館
+    type: 塔吉克菜
+    note: 盤龍古道午餐
+  - city: 和田
+    name: 和田夜市
+    type: 夜市
+    note: 烤包子、馕坑肉、烤全羊
+  - city: 庫車
+    name: 庫車大馕店
+    type: 主食
+    note: 直徑 1 米的大馕地標
+  - city: 庫車
+    name: 太古裡夜市
+    type: 夜市
+    note: 朋友推薦
+  - city: 伊寧
+    name: 烤包子＋手抓飯＋霜淇淋
+    type: 在地小吃
+    note: 六星街附近
+  - city: 烏魯木齊
+    name: 國際大巴扎美食街
+    type: 綜合
+    note: Day 14 晚餐，各民族風味
