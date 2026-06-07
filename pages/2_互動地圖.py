@@ -42,7 +42,8 @@ type_filter = st.multiselect(
     default=["city", "attraction", "bazaar", "border"],
 )
 
-day_filter = st.slider("第幾天", 1, 15, (1, 15))
+total_days = len(itin["days"])
+day_filter = st.slider("第幾天", 1, total_days, (1, total_days))
 
 filtered = [
     p for p in places_data["places"]
@@ -135,7 +136,7 @@ folium.Marker(
 ).add_to(m)
 folium.Marker(
     urumqi_pt,
-    popup="✈️ 烏魯木齊機場 URC（Day 15 出）",
+    popup="✈️ 烏魯木齊機場 URC（Day 13 出）",
     tooltip="烏魯木齊機場 URC（出）",
     icon=folium.DivIcon(html=airport_html("URC"), icon_size=(34, 34), icon_anchor=(17, 17)),
 ).add_to(m)
