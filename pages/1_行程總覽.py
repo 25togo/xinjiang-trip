@@ -16,13 +16,13 @@ trip = itin["trip"]
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("出發日", trip["start_date"])
 col2.metric("返程日", trip["end_date"])
-col3.metric("天數", "15")
+col3.metric("天數", str(len(itin["days"])))
 col4.metric("人數", trip["travelers"])
 
 st.caption(f"路線：{trip['route_type']} ｜ 移動方式：{trip['vehicle']}")
 
 st.markdown("---")
-st.subheader("15 天一覽")
+st.subheader(f"{len(itin['days'])} 天一覽")
 
 rows = []
 for d in itin["days"]:
@@ -73,4 +73,4 @@ c2.metric("總車程", f"{total_drive} 小時")
 c3.metric("最高海拔", f"{max_alt} m", help=f"{max_alt_day['date']} {max_alt_day['city_to']}")
 c4.metric("跨越城市", "8")
 
-st.warning("⚠️ Day 5 紅其拉甫 4733m，當天車上備好氧氣瓶。Day 14 車程 10 小時，建議清晨 6 點出發。")
+st.warning("⚠️ Day 5 紅其拉甫 4733m，當天車上備好氧氣瓶。Day 10 獨庫公路 11 小時長途，建議清晨 6:30 出發。Day 13 賽里木湖需 08:00 出發趕 20:20 班機。")
