@@ -6,7 +6,7 @@ trip:
   route_type: 帕米爾盤龍古道＋塔莎古道＋塔克拉瑪干沙漠公路＋獨庫公路＋伊犁河谷＋賽里木湖（喀什進、伊寧出 開口票）
   vehicle: 包車（單日 RMB 1100-1300）
   flight_in: "東方航空 MU｜8/14 台北 15:30 → 上海 PVG 17:30（住浦東亞朶酒店）｜8/15 PVG 07:05 → KHG 13:50（直飛 6h45m）"
-  flight_out: "8/26 IEL 伊寧 → 上海（待訂票）｜8/27 上海 → TSA 台北（待訂票）"
+  flight_out: "8/26 MU6254 IEL 17:20→SHA 虹橋 T2 22:10（A320，4h50m）｜8/27 MU5097 SHA 虹橋 T1 14:15→TSA 松山 16:15（A330，2h）"
 
 days:
   - day: 1
@@ -239,31 +239,34 @@ days:
     date: "2026-08-26"
     city_from: 伊寧
     city_to: 上海
-    transport: 飛機（IEL 伊寧→上海，待訂票）
+    transport: 東方航空 MU6254（IEL 17:20→SHA 虹橋 T2 22:10，4h50m）
     altitude_m: 4
     distance_km: 0
     drive_hours: 0
-    overnight: 上海市區飯店（虹橋或浦東，視落地機場）
+    overnight: 上海虹橋附近飯店（浦西/閔行，離 T1 20 分鐘內）
     cover_place_id: yining
     highlights:
       - 上午伊寧自由活動（喀贊其民俗村 或 六星街補拍）
-      - 午後前往伊寧機場 check-in
-      - 飛上海（航班時間待訂，建議訂下午班次）
-      - 抵上海後入住機場附近飯店
-    notes: 伊寧→上海航班需提前查好，建議訂 14:00 後起飛的班次，早上還有半天可以逛。
+      - 13:00 前往伊寧機場 check-in（建議提前 2.5h）
+      - 17:20 MU6254 起飛
+      - 22:10 抵上海虹橋 T2，提領行李
+      - 入住虹橋附近飯店（明天 T1 出發，同棟建築不同端）
+    notes: 落地虹橋 T2 後需提領行李、隔天重新託運到 T1。T1/T2 步行約 10-15 分鐘。
 
   - day: 14
     date: "2026-08-27"
     city_from: 上海
     city_to: 台北
-    transport: 飛機（上海→台北松山，待訂票）
+    transport: 東方航空 MU5097（SHA 虹橋 T1 14:15→TSA 松山 16:15，A330，2h）
     altitude_m: 4
     distance_km: 0
     drive_hours: 0
     overnight: 家
     cover_place_id: shanghai
     highlights:
-      - 視前一天落地機場決定交通
-      - 上海市區短暫停留或直接候機
-      - 飛台北松山機場
-    notes: 回程航班待確認，可配合伊寧出發時間一起規劃上海轉機的組合。
+      - 早上上海虹橋附近自由活動或輕鬆早餐
+      - 11:30 前往虹橋 T1 check-in（建議提前 2.5h）
+      - 14:15 MU5097 起飛（A330 寬體機）
+      - 16:15 抵台北松山機場
+      - 回家！
+    notes: 全程東方航空，行李可直接托運到松山（確認時再問地勤能否 through check-in）。
