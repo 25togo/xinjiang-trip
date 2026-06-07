@@ -73,4 +73,4 @@ c2.metric("總車程", f"{total_drive} 小時")
 c3.metric("最高海拔", f"{max_alt} m", help=f"{max_alt_day['date']} {max_alt_day['city_to']}")
 c4.metric("跨越城市", "8")
 
-st.warning("⚠️ Day 5 紅其拉甫 4733m，當天車上備好氧氣瓶。Day 10 獨庫公路 11 小時長途，建議清晨 6:30 出發。Day 13 賽里木湖需 08:00 出發趕 20:20 班機。")
+st.warning("⚠️ Day 5 紅其拉甫 4733m，當天車上備好氧氣瓶。Day 9 庫車→巴音布魯克 6h，鐵力買提達坂前建議 7:00 出發。Day 13 賽里木湖需 08:00 出發趕 20:20 班機。")
