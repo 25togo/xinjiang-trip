@@ -1,8 +1,6 @@
 from pathlib import Path
 from datetime import date, datetime
 import yaml
-import streamlit as st
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 USER_DATA_DIR = BASE_DIR / "data_user"
@@ -20,7 +18,6 @@ def _stringify_dates(obj):
     return obj
 
 
-@st.cache_data
 def load_yaml(filename: str) -> dict:
     path = DATA_DIR / filename
     with open(path, "r", encoding="utf-8") as f:
