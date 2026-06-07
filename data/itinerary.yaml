@@ -219,39 +219,41 @@ days:
   - day: 12
     date: "2026-08-25"
     city_from: 伊寧
-    city_to: 伊寧
-    transport: 包車（伊寧→賽里木湖→伊寧，當日來回）
-    altitude_m: 662
-    distance_km: 260
-    drive_hours: 4
-    overnight: 伊寧市區飯店（六星街附近）
+    city_to: 賽里木湖
+    transport: 包車（伊寧→賽里木湖，130km，2h）
+    altitude_m: 2073
+    distance_km: 130
+    drive_hours: 2
+    overnight: 賽里木湖畔木屋/帳篷營地（需提前預訂）
     cover_place_id: sayram_lake
     highlights:
-      - 早 08:00 出發前往賽里木湖（130km，2h）
-      - 賽里木湖環湖遊覽（高山湖泊，碧藍如寶石）
+      - 早 09:00 出發前往賽里木湖（130km，2h）
       - 果子溝大橋（停車拍照）
-      - 午餐湖邊
-      - 下午 14:00 返回伊寧（2h）
-      - 回伊寧繼續逛六星街或喀贊其民俗村
-    notes: 賽里木湖當日來回，不住湖邊。果子溝大橋是連霍高速最美路段，來回都會經過。
+      - 抵達賽里木湖環湖遊覽（高山湖泊，碧藍如寶石，海拔 2073m）
+      - 湖畔午餐、下午自由漫步
+      - 傍晚看夕陽染色湖面
+      - 住湖邊木屋或帳篷營地（夜晚星空極好）
+    notes: 賽里木湖住宿需提前預訂，選湖畔木屋或帳篷營地。早上看日出最美，明天不必太早出發，12:00 前離湖即可趕上班機。
 
   - day: 13
     date: "2026-08-26"
-    city_from: 伊寧
+    city_from: 賽里木湖
     city_to: 上海
-    transport: 東方航空 MU6254（IEL 17:20→SHA 虹橋 T2 22:10，4h50m）
+    transport: 包車賽里木湖→IEL 伊寧機場（130km，2h）+ 東方航空 MU6254（IEL 17:20→SHA 虹橋 T2 22:10，4h50m）
     altitude_m: 4
-    distance_km: 0
-    drive_hours: 0
+    distance_km: 130
+    drive_hours: 2
     overnight: 上海虹橋附近飯店（浦西/閔行，離 T1 20 分鐘內）
     cover_place_id: yining
     highlights:
-      - 上午伊寧自由活動（喀贊其民俗村 或 六星街補拍）
-      - 13:00 前往伊寧機場 check-in（建議提前 2.5h）
+      - 早起看賽里木湖日出晨霧
+      - 湖邊早餐
+      - 11:30 退房，包車往伊寧機場（130km，約 2h）
+      - 14:00 抵伊寧機場 check-in（MU6254 提前 2.5h）
       - 17:20 MU6254 起飛
       - 22:10 抵上海虹橋 T2，提領行李
-      - 入住虹橋附近飯店（明天 T1 出發，同棟建築不同端）
-    notes: 落地虹橋 T2 後需提領行李、隔天重新託運到 T1。T1/T2 步行約 10-15 分鐘。
+      - 入住虹橋附近飯店
+    notes: 11:30 從湖邊出發，14:00 到機場剛好。T2 落地後步行 10-15 分鐘到 T1，明天從 T1 飛台北。
 
   - day: 14
     date: "2026-08-27"

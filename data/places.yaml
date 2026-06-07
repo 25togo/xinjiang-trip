@@ -172,8 +172,8 @@ places:
     type: attraction
     lat: 44.6050
     lng: 81.1810
-    day: [12]
-    note: 中亞最美高山湖泊；Day 12 當日來回（伊寧出發 2h）
+    day: [12, 13]
+    note: 中亞最美高山湖泊，海拔 2073m；Day 12 住湖邊，Day 13 早起看日出後出發伊寧機場
 
   - id: guozigou
     name: 果子溝大橋
